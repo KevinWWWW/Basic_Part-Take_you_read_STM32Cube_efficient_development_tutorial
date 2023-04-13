@@ -1,0 +1,3 @@
+../Core/Src/fsmc.c:31:6:MX_FSMC_Init	64	static
+../Core/Src/fsmc.c:172:6:HAL_SRAM_MspInit	48	static
+../Core/Src/fsmc.c:235:6:HAL_SRAM_MspDeInit	8	static
