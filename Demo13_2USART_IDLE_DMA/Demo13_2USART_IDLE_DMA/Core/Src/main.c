@@ -94,7 +94,7 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
   lcd_init();
-  lcd_show_str(10, 10, 16, "Demo13_1:USART1 with DMA IDLE", RED);
+  lcd_show_str(10, 10, 16, "Demo13_2:USART1 with DMA IDLE", RED);
   lcd_show_str(10, 30, 16, "Please connect board with PC", RED);
   lcd_show_str(10, 50, 16, "via MiniUSB line before power on", RED);
 

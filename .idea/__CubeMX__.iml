@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Demo3_1LED/cmake-build-debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo6_1KeyLED/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo7_1EXTI/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo8_1TFTLCD/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo8_1TFTLCD_V3/Demo8_1TFTLCD_V3/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo9_1TIM_LED/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo10_1PWM_Out/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo10_2OutCompare/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo10_3PWM_IN/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo11_1RTC_Alarm/Demo11_1RTC_Alarm/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo11_2RTC_BKUP/Demo11_2RTC_BKUP/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo11_3RTC_Tamper/Demo11_3RTC_Tamper/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo12_1CH340/Demo12_1CH340/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo12_2VaryLen/Demo12_2VaryLen/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo12_3RxToIdle/Demo12_3RxToIdle/cmake-build-debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo12_3RxToIdle/Demo12_3RxToIdle/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo13_1USART_DMA/Demo13_1USART_DMA/cmake-build-debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo13_1USART_DMA/Demo13_1USART_DMA/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/cmake-build-debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo14_1ADC_Poll/Demo14_1ADC_Poll/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo14_2TimTrigger/Demo14_2TimTrigger/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Debug" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

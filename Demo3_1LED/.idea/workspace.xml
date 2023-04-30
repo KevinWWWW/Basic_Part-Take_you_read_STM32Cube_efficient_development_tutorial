@@ -20,7 +20,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77868e6d-ca07-4d7f-8825-d5726a7bbbe0" name="变更" comment="Initial commit" />
+    <list default="true" id="77868e6d-ca07-4d7f-8825-d5726a7bbbe0" name="变更" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.settings/language.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo8_1TFTLCD_V3/Demo8_1TFTLCD_V3/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo8_1TFTLCD_V3/Demo8_1TFTLCD_V3/.settings/language.settings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,16 +61,12 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "CPPToolchains",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD Demo3_1LED">
     <configuration name="Demo3_1LED.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Demo3_1LED" TARGET_NAME="Demo3_1LED.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Demo3_1LED" RUN_TARGET_NAME="Demo3_1LED.elf">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -85,6 +86,7 @@
       <updated>1681404981421</updated>
       <workItem from="1681404982827" duration="47000" />
       <workItem from="1681405039713" duration="879000" />
+      <workItem from="1682754835239" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1681405239098</created>
