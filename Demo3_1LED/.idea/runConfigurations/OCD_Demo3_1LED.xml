@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration name="OCD Demo3_1LED" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Demo3_1LED" TARGET_NAME="Demo3_1LED.elf" version="1" RUN_TARGET_PROJECT_NAME="Demo3_1LED" RUN_TARGET_NAME="Demo3_1LED.elf">
-    <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/stm32f4discovery.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+  <configuration default="false" name="OCD Demo3_1LED" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Demo3_1LED" TARGET_NAME="Demo3_1LED.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="Demo3_1LED" RUN_TARGET_NAME="Demo3_1LED.elf">
+    <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="C:\Program Files\STM32CubeIDE_1.6.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.debug.openocd_1.6.0.202102111023\resources\openocd\st_scripts\target\stm32f4x.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
       <debugger kind="GDB" isBundled="true" />
     </openocd>
     <method v="2">

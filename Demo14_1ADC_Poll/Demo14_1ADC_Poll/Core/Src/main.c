@@ -97,13 +97,14 @@ int main(void)
   lcd_show_str(10,130, 24, "ADC 12-bits Value = ", RED);
   lcd_show_str(10,190, 24, "Voltage(mV) = ", RED);
 
-  HAL_ADC_Start(&hadc1);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  HAL_ADC_Start(&hadc1);
 	  if (HAL_ADC_PollForConversion(&hadc1, 200) == HAL_OK) {
 		  uint32_t val = HAL_ADC_GetValue(&hadc1);
 		  lcd_show_num(50, 160, val, 4, 24, RED);
@@ -112,6 +113,7 @@ int main(void)
 		  lcd_show_num(50, 220, Volt, 4, 24, RED);
 	  }
 	  //HAL_ADC_Stop(&hadc1);
+	  HAL_Delay(500);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

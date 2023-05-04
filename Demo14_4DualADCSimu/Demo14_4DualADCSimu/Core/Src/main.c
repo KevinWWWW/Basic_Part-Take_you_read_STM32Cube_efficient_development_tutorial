@@ -93,16 +93,18 @@ int main(void)
   MX_FSMC_Init();
   MX_ADC1_Init();
   MX_TIM3_Init();
+  MX_ADC2_Init();
   /* USER CODE BEGIN 2 */
   lcd_init();
   lcd_show_str(10, 10, 24, "Demo14_4:ADC1 + ADC2 Sync", RED);
-  lcd_show_str(10, 40, 24, "Triggered by ", RED);
-  lcd_show_str(10, 70, 24, "TIM3 with interval of 500ms", RED);
-  lcd_show_str(10,100, 24, "Channel 5 Voltage(mV) = ", RED);
-  lcd_show_str(10,160, 24, "Reference Voltage(mV) = ", RED);
-  lcd_show_str(10,220, 24, "Battery   Voltage(mV) = ", RED);
+  lcd_show_str(10, 40, 24, "Triggered by TIM3 each 500ms", RED);
+  lcd_show_str(10, 70, 24, "Please set jumper at first", RED);
+  lcd_show_str(10,100, 24, "Tune potentiometer for input", RED);
+  lcd_show_str(10,130, 24, "ADC1 Vref(mV) = ", RED);
+  lcd_show_str(10,190, 24, "ADC2  In5(mV) = ", RED);
 
-  HAL_ADC_Start_DMA(&hadc1, dmaDataBuffer, BATCH_DATA_LEN);
+  HAL_ADCEx_MultiModeStart_DMA(&hadc1, dmaDataBuffer, BATCH_DATA_LEN);
+  HAL_ADCEx_MultiModeStart_DMA(&hadc2, dmaDataBuffer, BATCH_DATA_LEN);
   HAL_TIM_Base_Start(&htim3);
   /* USER CODE END 2 */
 
@@ -164,18 +166,17 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 __weak void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc) {
-	uint32_t adcValue = 0, Volt;
-	for (uint8_t i = 0; i < BATCH_DATA_LEN; ++i) {
-		adcValue = dmaDataBuffer[i];
-		Volt = 3300 * adcValue >> 12;
-		if (i % 3 == 0) {
-			lcd_show_num(50, 130, Volt, 4, 24, RED);
-		} else if (i % 3 == 1) {
-			lcd_show_num(50, 190, Volt, 4, 24, RED);
-		} else if (i % 3 == 2) {
-			lcd_show_num(50, 250, Volt, 4, 24, RED);
-		}
-	}
+	uint32_t Volt;
+	uint32_t adcValue = dmaDataBuffer[0];
+
+	uint32_t ADC1_val = adcValue & 0x0000FFFF;
+	Volt = 3300 * ADC1_val >> 12;
+	lcd_show_num(50, 160, Volt, 4, 24, RED);
+
+	uint32_t ADC2_val = adcValue & 0xFFFF0000;
+	ADC2_val = ADC2_val >> 16;
+	Volt = 3300 * ADC2_val >> 12;
+	lcd_show_num(50, 220, Volt, 4, 24, RED);
 }
 /* USER CODE END 4 */
 
