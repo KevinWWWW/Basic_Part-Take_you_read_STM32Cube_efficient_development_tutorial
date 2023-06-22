@@ -12,12 +12,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="修正第14章代码、添加第15章代码">
+    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="添加第15章代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo14_2TimTrigger/Demo14_2TimTrigger/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_2TimTrigger/Demo14_2TimTrigger/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo14_2TimTrigger/Demo14_2TimTrigger/Demo14_2TimTrigger.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_2TimTrigger/Demo14_2TimTrigger/Demo14_2TimTrigger.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo14_3Scan_DMA/Demo14_3Scan_DMA/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_3Scan_DMA/Demo14_3Scan_DMA/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo14_3Scan_DMA/Demo14_3Scan_DMA/Demo14_3Scan_DMA.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_3Scan_DMA/Demo14_3Scan_DMA/Demo14_3Scan_DMA.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Core/Src/adc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Core/Src/adc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Demo14_4DualADCSimu.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Demo14_4DualADCSimu.ioc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.cproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.settings/language.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Core/Src/gpio.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo6_1KeyLED/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo6_1KeyLED/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo9_1TIM_LED/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo9_1TIM_LED/.settings/language.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Demo15_1SoftTrig.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Demo15_1SoftTrig.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/STM32F407ZETX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/STM32F407ZETX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_2TriangWave/Demo15_2TriangWave/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_2TriangWave/Demo15_2TriangWave/.settings/language.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_3SawtoothDMA/Demo15_3SawtoothDMA/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_3SawtoothDMA/Demo15_3SawtoothDMA/.settings/language.settings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +95,8 @@
       <workItem from="1682951642387" duration="27000" />
       <workItem from="1683212264495" duration="389000" />
       <workItem from="1685254148820" duration="173000" />
-      <workItem from="1687414492502" duration="4000" />
+      <workItem from="1687414492502" duration="218000" />
+      <workItem from="1687422992176" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="初始化版本">
       <created>1681404549539</created>
@@ -127,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683212426913</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加第15章代码">
+      <created>1687414686864</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687414686864</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +172,7 @@
     <MESSAGE value="初始化版本" />
     <MESSAGE value="增加第14章代码、排除Debug临时文件" />
     <MESSAGE value="修正第14章代码、添加第15章代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="修正第14章代码、添加第15章代码" />
+    <MESSAGE value="添加第15章代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加第15章代码" />
   </component>
 </project>
