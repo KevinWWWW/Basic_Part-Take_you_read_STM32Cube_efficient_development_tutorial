@@ -26,7 +26,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "lcd.h"
+#include "keyled.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -93,6 +94,25 @@ int main(void)
   MX_DAC_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
+  lcd_init();
+  lcd_show_str(10, 10, 24, "Demo15_1: DAC1 by soft trigger", RED);
+  lcd_show_str(10, 40, 24, "Connect PA4 & PA5", RED);
+  lcd_show_str(10, 70, 24, "DAC1 output to PA4", RED);
+  lcd_show_str(10,100, 24, "ADC1-IN5 acquire PA5", RED);
+  lcd_show_str(10,130, 24, "KeyUp   = DAC1 output ++", RED);
+  lcd_show_str(10,160, 24, "KeyDown = DAC1 output --", RED);
+
+  lcd_show_str(10,220, 24, "DAC Output =", RED);
+  lcd_show_str(10,280, 24, "ADC Input =", RED);
+  lcd_show_str(10,340, 24, "Voltage(mV) = ", RED);
+
+  HAL_DAC_Start(&hdac, DAC_CHANNEL_1);
+  uint32_t DacOutValue = 1000;
+  HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, DacOutValue);
+  lcd_show_num(50, 250, DacOutValue, 4, 24, RED);
+
+  HAL_ADC_Start_IT(&hadc1);
+  HAL_TIM_Base_Start(&htim3);
 
   /* USER CODE END 2 */
 
@@ -100,6 +120,16 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  KEYS curKey = ScanPressedKey(KEY_WAIT_ALWAYS);
+	  if (curKey == KEY_UP) {
+		  DacOutValue += 50;
+	  } else if (curKey == KEY_DOWN) {
+		  DacOutValue -= 50;
+	  }
+
+	  HAL_DAC_SetValue(&hdac, DAC_CHANNEL_1, DAC_ALIGN_12B_R, DacOutValue);
+	  lcd_show_num(50, 250, DacOutValue, 4, 24, RED);
+	  HAL_Delay(300);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -153,7 +183,13 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc) {
+	uint32_t val = HAL_ADC_GetValue(hadc);
+	lcd_show_num(50, 310, val, 4, 24, RED);
 
+	uint32_t Volt = val * 3300 >> 12;
+	lcd_show_num(50, 370, Volt, 4, 24, RED);
+}
 /* USER CODE END 4 */
 
 /**

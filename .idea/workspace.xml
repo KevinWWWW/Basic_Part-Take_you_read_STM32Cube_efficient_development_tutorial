@@ -12,13 +12,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="增加第14章代码、排除Debug临时文件">
+    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="修正第14章代码、添加第15章代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Core/Src/adc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Core/Src/adc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo3_1LED/.idea/runConfigurations/OCD_Demo3_1LED.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo3_1LED/.idea/runConfigurations/OCD_Demo3_1LED.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo3_1LED/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo3_1LED/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.cproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo6_1KeyLED/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo6_1KeyLED/.settings/language.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo9_1TIM_LED/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo9_1TIM_LED/.settings/language.settings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,9 @@
       <workItem from="1682859970956" duration="276000" />
       <workItem from="1682928069958" duration="663000" />
       <workItem from="1682951642387" duration="27000" />
-      <workItem from="1683212264495" duration="1000" />
+      <workItem from="1683212264495" duration="389000" />
+      <workItem from="1685254148820" duration="173000" />
+      <workItem from="1687414492502" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="初始化版本">
       <created>1681404549539</created>
@@ -119,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682860234932</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修正第14章代码、添加第15章代码">
+      <created>1683212426913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683212426913</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +151,7 @@
     </ignored-roots>
     <MESSAGE value="初始化版本" />
     <MESSAGE value="增加第14章代码、排除Debug临时文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加第14章代码、排除Debug临时文件" />
+    <MESSAGE value="修正第14章代码、添加第15章代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正第14章代码、添加第15章代码" />
   </component>
 </project>

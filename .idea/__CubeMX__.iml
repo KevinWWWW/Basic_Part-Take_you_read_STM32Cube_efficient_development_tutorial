@@ -25,6 +25,10 @@
       <excludeFolder url="file://$MODULE_DIR$/Demo14_1ADC_Poll/Demo14_1ADC_Poll/Debug" />
       <excludeFolder url="file://$MODULE_DIR$/Demo14_2TimTrigger/Demo14_2TimTrigger/Debug" />
       <excludeFolder url="file://$MODULE_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo14_3Scan_DMA/Demo14_3Scan_DMA/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo15_2TriangWave/Demo15_2TriangWave/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo15_3SawtoothDMA/Demo15_3SawtoothDMA/Debug" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
