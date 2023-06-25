@@ -45,7 +45,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+uint32_t ADCValue, ADCVoltage;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -92,9 +92,7 @@ int main(void)
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
   lcd_init();
-  lcd_show_str(10, 10, 24, "Demo14_2:ADC by Timer Trigger", RED);
-  lcd_show_str(10, 40, 24, "ADC1-IN5 channel", RED);
-  lcd_show_str(10, 70, 24, "TIM3's interval is 500ms", RED);
+  lcd_show_str(10, 10, 24, "Demo5_1: ADC by TIM3 Trigger", RED);
   lcd_show_str(10,100, 24, "Please set jumper at first", RED);
   lcd_show_str(10,130, 24, "Tune potentiometer for input", RED);
   lcd_show_str(10,160, 24, "ADC 12-bits Value = ", RED);
@@ -152,7 +150,7 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV4;
 
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_3) != HAL_OK)
   {
@@ -163,11 +161,11 @@ void SystemClock_Config(void)
 /* USER CODE BEGIN 4 */
 __weak void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc) {
 	if (hadc->Instance == ADC1) {
-		uint32_t val = HAL_ADC_GetValue(&hadc1);
-		lcd_show_num(50, 190, val, 4, 24, RED);
+		ADCValue = HAL_ADC_GetValue(&hadc1);
+		lcd_show_num(50, 190, ADCValue, 4, 24, RED);
 
-		uint32_t Volt = 3300 * val >> 12;
-		lcd_show_num(50, 250, Volt, 4, 24, RED);
+		ADCVoltage = 3300 * ADCValue >> 12;
+		lcd_show_num(50, 250, ADCVoltage, 4, 24, RED);
 	}
 }
 /* USER CODE END 4 */
