@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration name="OCD Demo16_1FlashSPI" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Demo16_1FlashSPI" TARGET_NAME="Demo16_1FlashSPI.elf" version="1" RUN_TARGET_PROJECT_NAME="Demo16_1FlashSPI" RUN_TARGET_NAME="Demo16_1FlashSPI.elf">
+    <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\__CubeMX__\Demo16_1FlashSPI\Demo16_1FlashSPI\stm32f4discovery.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+      <debugger kind="GDB" isBundled="true" />
+    </openocd>
+    <method v="2">
+      <option name="CLION.COMPOUND.BUILD" enabled="true" />
+    </method>
+  </configuration>
+</component>

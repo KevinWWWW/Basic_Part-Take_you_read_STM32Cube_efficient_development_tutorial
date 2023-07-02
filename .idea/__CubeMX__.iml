@@ -29,6 +29,9 @@
       <excludeFolder url="file://$MODULE_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Debug" />
       <excludeFolder url="file://$MODULE_DIR$/Demo15_2TriangWave/Demo15_2TriangWave/Debug" />
       <excludeFolder url="file://$MODULE_DIR$/Demo15_3SawtoothDMA/Demo15_3SawtoothDMA/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo5_2ADC/Demo5_2ADC/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo16_1FlashSPI/Demo16_1FlashSPI/cmake-build-debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo16_1FlashSPI/Demo16_1FlashSPI/Debug" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

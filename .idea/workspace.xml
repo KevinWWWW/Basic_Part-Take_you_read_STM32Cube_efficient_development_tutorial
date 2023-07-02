@@ -12,18 +12,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="修正第14章代码、添加第5章代码">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="添加第5章流程图">
+      <change afterPath="$PROJECT_DIR$/Demo16_1FlashSPI/Demo16_1FlashSPI/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo16_1FlashSPI/Demo16_1FlashSPI/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo16_1FlashSPI/Demo16_1FlashSPI/stm32f4discovery.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/__CubeMX__.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/__CubeMX__.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo14_2TimTrigger/Demo14_2TimTrigger/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_2TimTrigger/Demo14_2TimTrigger/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo14_3Scan_DMA/Demo14_3Scan_DMA/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_3Scan_DMA/Demo14_3Scan_DMA/.settings/language.settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo15_2TriangWave/Demo15_2TriangWave/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_2TriangWave/Demo15_2TriangWave/.settings/language.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.settings/stm32cubeide.project.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.settings/stm32cubeide.project.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo15_3SawtoothDMA/Demo15_3SawtoothDMA/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_3SawtoothDMA/Demo15_3SawtoothDMA/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo5_2ADC/Demo5_2ADC/.project" beforeDir="false" afterPath="$PROJECT_DIR$/Demo5_2ADC/Demo5_2ADC/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo5_2ADC/Demo5_2ADC/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Demo5_2ADC/Demo5_2ADC/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo5_2ADC/Demo5_2ADC/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Demo5_2ADC/Demo5_2ADC/Core/Src/tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo5_2ADC/Demo5_2ADC/Demo5_2ADC.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Demo5_2ADC/Demo5_2ADC/Demo5_2ADC.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,9 @@
       <workItem from="1685254148820" duration="173000" />
       <workItem from="1687414492502" duration="218000" />
       <workItem from="1687422992176" duration="83000" />
-      <workItem from="1687689000302" duration="767000" />
+      <workItem from="1687689000302" duration="1432000" />
+      <workItem from="1688188126027" duration="1196000" />
+      <workItem from="1688301875613" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="初始化版本">
       <created>1681404549539</created>
@@ -156,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687423059182</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加第5章流程图">
+      <created>1687689836587</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687689836587</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +189,7 @@
     <MESSAGE value="修正第14章代码、添加第15章代码" />
     <MESSAGE value="添加第15章代码" />
     <MESSAGE value="修正第14章代码、添加第5章代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="修正第14章代码、添加第5章代码" />
+    <MESSAGE value="添加第5章流程图" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加第5章流程图" />
   </component>
 </project>
