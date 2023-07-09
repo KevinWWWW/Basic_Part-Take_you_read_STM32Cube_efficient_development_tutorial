@@ -20,7 +20,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e1499e0-bc1d-4329-b571-b9840d9eddaa" name="变更" comment="" />
+    <list default="true" id="5e1499e0-bc1d-4329-b571-b9840d9eddaa" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.idea/runConfigurations/OCD_Demo13_2USART_IDLE_DMA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/stm32f4discovery.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Demo16_2FlashSPI_DMA/Demo16_2FlashSPI_DMA/.idea/Demo16_2FlashSPI_DMA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/CMakeLists.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,22 +51,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD Demo12_3RxToIdle">
     <configuration name="Demo12_3RxToIdle.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Demo12_3RxToIdle" TARGET_NAME="Demo12_3RxToIdle.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Demo12_3RxToIdle" RUN_TARGET_NAME="Demo12_3RxToIdle.elf">
       <method v="2">
@@ -79,6 +90,7 @@
       <workItem from="1679143916180" duration="804000" />
       <workItem from="1681035926977" duration="910000" />
       <workItem from="1681038588801" duration="4000" />
+      <workItem from="1688778851548" duration="1885000" />
     </task>
     <servers />
   </component>

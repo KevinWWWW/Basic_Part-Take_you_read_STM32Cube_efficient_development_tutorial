@@ -1,0 +1,10 @@
+../Core/Src/spi.c:38:6:MX_SPI1_Init	8	static
+../Core/Src/spi.c:70:6:HAL_SPI_MspInit	48	static
+../Core/Src/spi.c:138:6:HAL_SPI_MspDeInit	16	static
+../Core/Src/spi.c:166:6:Flash_TestReadStatus	112	static
+../Core/Src/spi.c:211:6:Flash_TestWrite	360	static
+../Core/Src/spi.c:237:6:Flash_TestRead	112	static
+../Core/Src/spi.c:262:6:Flash_TestWriteDMA	32	static
+../Core/Src/spi.c:276:6:HAL_SPI_TxCpltCallback	24	static
+../Core/Src/spi.c:282:6:Flash_TestReadDMA	16	static
+../Core/Src/spi.c:290:6:HAL_SPI_RxCpltCallback	80	static

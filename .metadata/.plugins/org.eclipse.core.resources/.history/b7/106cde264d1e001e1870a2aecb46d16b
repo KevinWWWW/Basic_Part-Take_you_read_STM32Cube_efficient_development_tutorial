@@ -1,0 +1,33 @@
+#include "24cxx.h"
+
+#define EP24C_TIMEOUT		200
+#define EP24C_MEMADD_SIZE 	I2C_MEMADD_SIZE_8BIT
+
+HAL_StatusTypeDef EP24C_IsDeviceReady(void) {
+	uint32_t Trials = 10;
+	return HAL_I2C_IsDeviceReady(&I2C_HANDLE, DEV_ADDR_24CXX, Trials, EP24C_TIMEOUT);
+}
+
+HAL_StatusTypeDef EP24C_WriteOneByte(uint16_t memAddress, uint8_t byteData) {
+	return HAL_I2C_Mem_Write(&I2C_HANDLE, DEV_ADDR_24CXX, memAddress,
+			EP24C_MEMADD_SIZE, &byteData, 1, EP24C_TIMEOUT);
+}
+
+HAL_StatusTypeDef EP24C_ReadOneByte(uint16_t memAddress, uint8_t *byteData) {
+	return HAL_I2C_Mem_Read(&I2C_HANDLE, DEV_ADDR_24CXX, memAddress,
+				EP24C_MEMADD_SIZE, byteData, 1, EP24C_TIMEOUT);
+}
+
+HAL_StatusTypeDef EP24C_ReadBytes(uint16_t memAddress, uint8_t *pBuffer, uint16_t bufferLen) {
+	if (bufferLen > MEM_SIZE_24CXX) {
+		;
+	}
+}
+
+HAL_StatusTypeDef EP24C_WriteInOnePage(uint16_t memAddress, uint8_t *pBuffer, uint16_t bufferLen) {
+
+}
+
+HAL_StatusTypeDef EP24C_WriteLongData(uint16_t memAddress, uint8_t *pBuffer, uint16_t bufferLen) {
+
+}
