@@ -30,3 +30,7 @@
 /Demo16_1FlashSPI/Demo16_1FlashSPI/Debug/
 /Demo16_1FlashSPI/Demo16_1FlashSPI/cmake-build-debug/
 /Demo17_1EEPROM/Demo17_1EEPROM/Debug/
+/Demo18_1Poll/Demo18_1Poll/cmake-build-debug/
+/Demo18_1Poll/Demo18_1Poll/Debug/
+/Demo18_2Interrupt/Demo18_2Interrupt/Debug/
+/.metadata/.plugins/org.eclipse.core.resources/.history/

@@ -12,42 +12,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="添加第16章Demo16_1">
-      <change afterPath="$PROJECT_DIR$/Demo12_3RxToIdle/Demo12_3RxToIdle/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.idea/runConfigurations/OCD_Demo13_2USART_IDLE_DMA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/stm32f4discovery.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo16_2FlashSPI_DMA/Demo16_2FlashSPI_DMA/.idea/Demo16_2FlashSPI_DMA.iml" afterDir="false" />
+    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="添加第17章Demo17_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo10_1PWM_Out/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo10_1PWM_Out/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo10_2OutCompare/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo10_2OutCompare/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo10_3PWM_IN/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo10_3PWM_IN/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo11_1RTC_Alarm/Demo11_1RTC_Alarm/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo11_1RTC_Alarm/Demo11_1RTC_Alarm/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo11_2RTC_BKUP/Demo11_2RTC_BKUP/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo11_2RTC_BKUP/Demo11_2RTC_BKUP/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo11_3RTC_Tamper/Demo11_3RTC_Tamper/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo11_3RTC_Tamper/Demo11_3RTC_Tamper/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo12_1CH340/Demo12_1CH340/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo12_1CH340/Demo12_1CH340/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo12_2VaryLen/Demo12_2VaryLen/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo12_2VaryLen/Demo12_2VaryLen/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo12_3RxToIdle/Demo12_3RxToIdle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo12_3RxToIdle/Demo12_3RxToIdle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo12_3RxToIdle/Demo12_3RxToIdle/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo12_3RxToIdle/Demo12_3RxToIdle/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo13_1USART_DMA/Demo13_1USART_DMA/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo13_1USART_DMA/Demo13_1USART_DMA/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Demo13_2USART_IDLE_DMA/Demo13_2USART_IDLE_DMA/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo14_1ADC_Poll/Demo14_1ADC_Poll/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_1ADC_Poll/Demo14_1ADC_Poll/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo14_2TimTrigger/Demo14_2TimTrigger/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_2TimTrigger/Demo14_2TimTrigger/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo14_3Scan_DMA/Demo14_3Scan_DMA/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_3Scan_DMA/Demo14_3Scan_DMA/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo14_4DualADCSimu/Demo14_4DualADCSimu/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo15_2TriangWave/Demo15_2TriangWave/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_2TriangWave/Demo15_2TriangWave/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo15_3SawtoothDMA/Demo15_3SawtoothDMA/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_3SawtoothDMA/Demo15_3SawtoothDMA/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo16_1FlashSPI/Demo16_1FlashSPI/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo16_1FlashSPI/Demo16_1FlashSPI/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo3_1LED/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo3_1LED/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo5_2ADC/Demo5_2ADC/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo5_2ADC/Demo5_2ADC/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo6_1KeyLED/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo6_1KeyLED/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo7_1EXTI/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo7_1EXTI/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo8_1TFTLCD/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo8_1TFTLCD/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo8_1TFTLCD_V3/Demo8_1TFTLCD_V3/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo8_1TFTLCD_V3/Demo8_1TFTLCD_V3/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo9_1TIM_LED/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo9_1TIM_LED/.settings/language.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.ide.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.ide.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo17_1EEPROM/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo17_1EEPROM/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.launchbar.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.launchbar.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo17_1EEPROM/Demo17_1EEPROM/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo17_1EEPROM/Demo17_1EEPROM/.settings/language.settings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +94,9 @@
       <workItem from="1687689000302" duration="1432000" />
       <workItem from="1688188126027" duration="1196000" />
       <workItem from="1688301875613" duration="108000" />
-      <workItem from="1688909367116" duration="2000" />
+      <workItem from="1688909367116" duration="174000" />
+      <workItem from="1689497982997" duration="620000" />
+      <workItem from="1692797754448" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="初始化版本">
       <created>1681404549539</created>
@@ -197,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688301977425</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加第17章Demo17_1">
+      <created>1688909490866</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688909490866</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +211,7 @@
     <MESSAGE value="修正第14章代码、添加第5章代码" />
     <MESSAGE value="添加第5章流程图" />
     <MESSAGE value="添加第16章Demo16_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加第16章Demo16_1" />
+    <MESSAGE value="添加第17章Demo17_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加第17章Demo17_1" />
   </component>
 </project>
