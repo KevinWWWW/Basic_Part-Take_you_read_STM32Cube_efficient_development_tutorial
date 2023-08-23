@@ -1,0 +1,10 @@
+16:12:36 **** Incremental Build of configuration Debug for project Demo16_2FlashSPI_DMA ****
+make -j12 all 
+arm-none-eabi-size   Demo16_2FlashSPI_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  58260	    488	   2560	  61308	   ef7c	Demo16_2FlashSPI_DMA.elf
+Finished building: default.size.stdout
+ 
+
+16:12:36 Build Finished. 0 errors, 0 warnings. (took 406ms)
+

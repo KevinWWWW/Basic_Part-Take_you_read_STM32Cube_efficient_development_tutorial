@@ -1,0 +1,10 @@
+22:19:50 **** Incremental Build of configuration Debug for project Demo18_2Interrupt ****
+make -j12 all 
+arm-none-eabi-size   Demo18_2Interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41912	    124	   1828	  43864	   ab58	Demo18_2Interrupt.elf
+Finished building: default.size.stdout
+ 
+
+22:19:51 Build Finished. 0 errors, 0 warnings. (took 322ms)
+

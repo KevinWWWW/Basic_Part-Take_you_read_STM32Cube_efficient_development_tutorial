@@ -1,0 +1,409 @@
+19:19:20 **** Incremental Build of configuration Debug for project CubeIDE_Project ****
+make -j12 all 
+arm-none-eabi-gcc "../User/Src/user_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_gpio.d" -MT"User/Src/user_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/Src/user_gpio.o"
+arm-none-eabi-gcc "../User/Src/user_idle.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_idle.d" -MT"User/Src/user_idle.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/Src/user_idle.o"
+arm-none-eabi-gcc "../User/Src/user_spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_spi.d" -MT"User/Src/user_spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/Src/user_spi.o"
+arm-none-eabi-gcc "../User/Src/user_system_ctrl.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_system_ctrl.d" -MT"User/Src/user_system_ctrl.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/Src/user_system_ctrl.o"
+arm-none-eabi-gcc "../User/Src/user_system_init.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_system_init.d" -MT"User/Src/user_system_init.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/Src/user_system_init.o"
+arm-none-eabi-gcc "../User/Src/user_timer.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_timer.d" -MT"User/Src/user_timer.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/Src/user_timer.o"
+arm-none-eabi-gcc "../User/Src/user_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_uart.d" -MT"User/Src/user_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/Src/user_uart.o"
+arm-none-eabi-gcc "../Drivers/BSP/Src/Comm_Cat1.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/Comm_Cat1.d" -MT"Drivers/BSP/Src/Comm_Cat1.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/BSP/Src/Comm_Cat1.o"
+arm-none-eabi-gcc "../Drivers/BSP/Src/Comm_Cat1Protocol.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/Comm_Cat1Protocol.d" -MT"Drivers/BSP/Src/Comm_Cat1Protocol.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/BSP/Src/Comm_Cat1Protocol.o"
+arm-none-eabi-gcc "../Drivers/BSP/Src/Drv_Eeprom.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/Drv_Eeprom.d" -MT"Drivers/BSP/Src/Drv_Eeprom.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/BSP/Src/Drv_Eeprom.o"
+arm-none-eabi-gcc "../Drivers/BSP/Src/Icp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/Icp.d" -MT"Drivers/BSP/Src/Icp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/BSP/Src/Icp.o"
+arm-none-eabi-gcc "../Drivers/BSP/Src/gps.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/gps.d" -MT"Drivers/BSP/Src/gps.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/BSP/Src/gps.o"
+In file included from ../Core/Inc/main.h:41,
+                 from ../User/Inc/user_gpio.h:23,
+                 from ../User/Src/user_gpio.c:5:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../User/Inc/user_idle.h:23,
+                 from ../User/Src/user_idle.c:19:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+../User/Src/user_idle.c: In function 'WakeUp_SYSClockConfig':
+../User/Src/user_idle.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+   88 | }
+      | ^
+In file included from ../Core/Inc/main.h:41,
+                 from ../User/Inc/user_system_ctrl.h:23,
+                 from ../User/Src/user_system_ctrl.c:19:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../User/Inc/user_timer.h:22,
+                 from ../User/Src/user_timer.c:19:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../User/Inc/user_system_init.h:23,
+                 from ../User/Src/user_system_init.c:20:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../User/Inc/user_uart.h:23,
+                 from ../User/Src/user_uart.c:20:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/Src/Comm_Cat1.c: In function 'Comm_Cat1_SendData':
+../Drivers/BSP/Src/Comm_Cat1.c:275:40: warning: pointer targets in passing argument 2 of 'user_UART_Transmit_DMA' differ in signedness [-Wpointer-sign]
+  275 |     user_UART_Transmit_DMA(CAT1_USART, pucData);
+      |                                        ^~~~~~~
+      |                                        |
+      |                                        uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:39,
+                 from ../Drivers/BSP/Inc/Comm_Cat1.h:22,
+                 from ../Drivers/BSP/Src/Comm_Cat1.c:19:
+../User/Inc/user_uart.h:26:81: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   26 | HAL_StatusTypeDef user_UART_Transmit_DMA(UART_HandleTypeDef *huart, const char *format, ...);
+      |                                                                     ~~~~~~~~~~~~^~~~~~
+../Drivers/BSP/Src/Comm_Cat1.c: In function 'Comm_Cat1_SendString':
+../Drivers/BSP/Src/Comm_Cat1.c:284:40: warning: pointer targets in passing argument 2 of 'user_UART_Transmit_DMA' differ in signedness [-Wpointer-sign]
+  284 |     user_UART_Transmit_DMA(CAT1_USART, pucData);
+      |                                        ^~~~~~~
+      |                                        |
+      |                                        uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:39,
+                 from ../Drivers/BSP/Inc/Comm_Cat1.h:22,
+                 from ../Drivers/BSP/Src/Comm_Cat1.c:19:
+../User/Inc/user_uart.h:26:81: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   26 | HAL_StatusTypeDef user_UART_Transmit_DMA(UART_HandleTypeDef *huart, const char *format, ...);
+      |                                                                     ~~~~~~~~~~~~^~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Drivers/BSP/Inc/Comm_Cat1.h:22,
+                 from ../Drivers/BSP/Src/Comm_Cat1.c:19:
+../Drivers/BSP/Src/Comm_Cat1.c: At top level:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/Src/Comm_Cat1Protocol.c: In function 'Comm_Cat1DealCmd_HeartBeat':
+../Drivers/BSP/Src/Comm_Cat1Protocol.c:399:13: warning: variable 'ucSendData' set but not used [-Wunused-but-set-variable]
+  399 |     uint8_t ucSendData[10];
+      |             ^~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Drivers/BSP/Inc/Comm_Cat1Protocol.h:23,
+                 from ../Drivers/BSP/Src/Comm_Cat1Protocol.c:19:
+../Drivers/BSP/Src/Comm_Cat1Protocol.c: At top level:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Drivers/BSP/Inc/Drv_Eeprom.h:23,
+                 from ../Drivers/BSP/Src/Drv_Eeprom.c:19:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/Src/Icp.c: In function 'Icp_DiagnoseOnePointNoSave':
+../Drivers/BSP/Src/Icp.c:231:14: warning: unused variable 'wRealLen' [-Wunused-variable]
+  231 |     uint16_t wRealLen;
+      |              ^~~~~~~~
+../Drivers/BSP/Src/Icp.c: In function 'Icp_MonitorProc':
+../Drivers/BSP/Src/Icp.c:268:13: warning: unused variable 'i' [-Wunused-variable]
+  268 |     uint8_t i = 0;
+      |             ^
+../Drivers/BSP/Src/gps.c: In function 'GPS_RMC_Parse':
+In file included from ../Core/Inc/main.h:41,
+                 from ../Drivers/BSP/Inc/Icp.h:21,
+                 from ../Drivers/BSP/Src/Icp.c:19:
+../Drivers/BSP/Src/Icp.c: At top level:
+../Drivers/BSP/Src/gps.c:79:11: warning: unused variable 'speed_tmp' [-Wunused-variable]
+   79 |     float speed_tmp;
+      |           ^~~~~~~~~
+../Drivers/BSP/Src/gps.c:78:26: warning: unused variable 'long_second_tmp' [-Wunused-variable]
+   78 |     float long_cent_tmp, long_second_tmp;
+      |                          ^~~~~~~~~~~~~~~
+../Drivers/BSP/Src/gps.c:78:11: warning: unused variable 'long_cent_tmp' [-Wunused-variable]
+   78 |     float long_cent_tmp, long_second_tmp;
+      |           ^~~~~~~~~~~~~
+../Drivers/BSP/Src/gps.c:77:26: warning: unused variable 'lati_second_tmp' [-Wunused-variable]
+   77 |     float lati_cent_tmp, lati_second_tmp;
+      |                          ^~~~~~~~~~~~~~~
+../Drivers/BSP/Src/gps.c:77:11: warning: unused variable 'lati_cent_tmp' [-Wunused-variable]
+   77 |     float lati_cent_tmp, lati_second_tmp;
+      |           ^~~~~~~~~~~~~
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/Src/gps.c: In function 'GPS_GSV_Parse':
+../Drivers/BSP/Src/gps.c:170:17: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  170 |     uint8_t ch, status;
+      |                 ^~~~~~
+../Drivers/BSP/Src/Icp.c:172:6: warning: 'Icp_Report_AllDiagnoseData' defined but not used [-Wunused-function]
+  172 | void Icp_Report_AllDiagnoseData(void) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/Src/gps.c: In function 'Gps_VerifyRMC_Frame':
+../Drivers/BSP/Src/gps.c:628:46: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  628 |         GPS_RMC_Parse(pro_buffer_gps, strlen(pro_buffer_gps), &tGpsInfo);
+      |                                              ^~~~~~~~~~~~~~
+      |                                              |
+      |                                              uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:35,
+                 from ../Drivers/BSP/Inc/gps.h:21,
+                 from ../Drivers/BSP/Src/gps.c:19:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../Drivers/BSP/Src/gps.c:628:23: warning: pointer targets in passing argument 1 of 'GPS_RMC_Parse' differ in signedness [-Wpointer-sign]
+  628 |         GPS_RMC_Parse(pro_buffer_gps, strlen(pro_buffer_gps), &tGpsInfo);
+      |                       ^~~~~~~~~~~~~~
+      |                       |
+      |                       uint8_t * {aka unsigned char *}
+../Drivers/BSP/Src/gps.c:75:25: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   75 | int GPS_RMC_Parse(char *line, uint16_t wLen, GPS_INFO *GPS) {
+      |                   ~~~~~~^~~~
+../Drivers/BSP/Src/gps.c:619:14: warning: unused variable 'wReadLen' [-Wunused-variable]
+  619 |     uint16_t wReadLen = 0;
+      |              ^~~~~~~~
+../Drivers/BSP/Src/gps.c:618:13: warning: unused variable 'bRecvData' [-Wunused-variable]
+  618 |     uint8_t bRecvData = 0;
+      |             ^~~~~~~~~
+../Drivers/BSP/Src/gps.c: In function 'Comm_Gps_SendString':
+../Drivers/BSP/Src/gps.c:728:39: warning: pointer targets in passing argument 2 of 'user_UART_Transmit_DMA' differ in signedness [-Wpointer-sign]
+  728 |     user_UART_Transmit_DMA(GPS_USART, pucData);
+      |                                       ^~~~~~~
+      |                                       |
+      |                                       uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:39,
+                 from ../Drivers/BSP/Inc/gps.h:21,
+                 from ../Drivers/BSP/Src/gps.c:19:
+../User/Inc/user_uart.h:26:81: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   26 | HAL_StatusTypeDef user_UART_Transmit_DMA(UART_HandleTypeDef *huart, const char *format, ...);
+      |                                                                     ~~~~~~~~~~~~^~~~~~
+../Drivers/BSP/Src/gps.c:727:14: warning: unused variable 'wRealSendLen' [-Wunused-variable]
+  727 |     uint16_t wRealSendLen = 0;
+      |              ^~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Drivers/BSP/Inc/gps.h:21,
+                 from ../Drivers/BSP/Src/gps.c:19:
+../Drivers/BSP/Src/gps.c: At top level:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/Src/gps.c: In function 'Gps_VerifyRMC_Frame':
+../Drivers/BSP/Src/gps.c:632:1: warning: control reaches end of non-void function [-Wreturn-type]
+  632 | }
+      | ^
+At top level:
+../Drivers/BSP/Src/gps.c:498:15: warning: 'Get_Double_Number' defined but not used [-Wunused-function]
+  498 | static double Get_Double_Number(char *s) {
+      |               ^~~~~~~~~~~~~~~~~
+../Drivers/BSP/Src/gps.c: In function 'Get_Float_Number':
+../Drivers/BSP/Src/gps.c:310:35: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  310 |             rev = rev + dat / (10 * i);
+      |                               ~~~~^~~~
+../Drivers/BSP/Src/gps.c:264:9: note: 'i' was declared here
+  264 |     int i;
+      |         ^
+../Drivers/BSP/Src/gps.c:301:12: warning: 'dat' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  301 |         if (dat == '.') {
+      |            ^
+../Drivers/BSP/Src/gps.c:261:11: note: 'dat' was declared here
+  261 |     float dat;
+      |           ^~~
+../Drivers/BSP/Src/gps.c: In function 'GPS_GSV_Parse':
+../Drivers/BSP/Src/gps.c:228:13: warning: 'dat' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  228 |         rev = rev * 10 + dat;
+      |         ~~~~^~~~~~~~~~~~~~~~
+../Drivers/BSP/Src/gps.c:192:9: note: 'dat' was declared here
+  192 |     int dat;
+      |         ^~~
+../Drivers/BSP/Src/gps.c: In function 'Get_checksum':
+../Drivers/BSP/Src/gps.c:462:13: warning: 'dat' may be used uninitialized in this function [-Wmaybe-uninitialized]
+arm-none-eabi-gcc "../Drivers/BSP/Src/spi_adc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/spi_adc.d" -MT"Drivers/BSP/Src/spi_adc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/BSP/Src/spi_adc.o"
+  462 |         tmp = rev * 16 + dat;
+      |         ~~~~^~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../Drivers/BSP/Src/spi_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/spi_flash.d" -MT"Drivers/BSP/Src/spi_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/BSP/Src/spi_flash.o"
+arm-none-eabi-gcc "../Core/Src/dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/dma.d" -MT"Core/Src/dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/dma.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/iwdg.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/iwdg.d" -MT"Core/Src/iwdg.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/iwdg.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rtc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/rtc.d" -MT"Core/Src/rtc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/rtc.o"
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/spi.o"
+arm-none-eabi-gcc "../Core/Src/stm32l1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l1xx_hal_msp.d" -MT"Core/Src/stm32l1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32l1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l1xx_it.d" -MT"Core/Src/stm32l1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32l1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/tim.o"
+In file included from ../Core/Inc/main.h:41,
+                 from ../Drivers/BSP/Inc/spi_adc.h:21,
+                 from ../Drivers/BSP/Src/spi_adc.c:19:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Drivers/BSP/Inc/spi_flash.h:22,
+                 from ../Drivers/BSP/Src/spi_flash.c:20:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Core/Inc/gpio.h:29,
+                 from ../Core/Src/gpio.c:22:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Core/Inc/dma.h:29,
+                 from ../Core/Src/dma.c:22:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Core/Inc/iwdg.h:29,
+                 from ../Core/Src/iwdg.c:21:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Core/Inc/rtc.h:29,
+                 from ../Core/Src/rtc.c:21:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/Src/spi_flash.c: In function 'OSS_DrvExtFlashRead':
+../Drivers/BSP/Src/spi_flash.c:343:5: warning: 'tmp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  343 |     SPI1_ExchangeByte(tmp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'Debug_SendString':
+../Core/Src/main.c:217:37: warning: pointer targets in passing argument 2 of 'user_UART_Transmit_DMA' differ in signedness [-Wpointer-sign]
+  217 |     user_UART_Transmit_DMA(&huart1, pucData);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:39,
+                 from ../Core/Src/main.c:20:
+../User/Inc/user_uart.h:26:81: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   26 | HAL_StatusTypeDef user_UART_Transmit_DMA(UART_HandleTypeDef *huart, const char *format, ...);
+      |                                                                     ~~~~~~~~~~~~^~~~~~
+../Core/Src/main.c:216:14: warning: unused variable 'wRealSendLen' [-Wunused-variable]
+  216 |     uint16_t wRealSendLen = 0;
+      |              ^~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Core/Src/main.c:20:
+../Core/Src/main.c: At top level:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Core/Inc/spi.h:29,
+                 from ../Core/Src/spi.c:21:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Core/Inc/tim.h:29,
+                 from ../Core/Src/tim.c:21:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Core/Src/stm32l1xx_hal_msp.c:22:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L151xC -c -I../Core/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc -I../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/usart.o"
+In file included from ../Core/Inc/main.h:41,
+                 from ../Core/Src/stm32l1xx_it.c:21:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:41,
+                 from ../Core/Inc/usart.h:29,
+                 from ../Core/Src/usart.c:21:
+../User/Inc/user_spi.h:24:27: warning: 'SPI_Type_Channel' declared 'static' but never defined [-Wunused-function]
+   24 | static SPI_HandleTypeDef *SPI_Type_Channel(SPI_CS_Port CS_Channel);
+      |                           ^~~~~~~~~~~~~~~~
+../User/Inc/user_spi.h:25:16: warning: 'SPI_CS_Port_Channel' declared 'static' but never defined [-Wunused-function]
+   25 | static uint8_t SPI_CS_Port_Channel(SPI_CS_Port CS_Channel, SPI_CS_Pin *SPI_CS);
+      |                ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "CubeIDE_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\__CLion__\convert_to_CubeIDE\CubeIDE_Project\STM32L151RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CubeIDE_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CubeIDE_Project.elf
+ 
+arm-none-eabi-size   CubeIDE_Project.elf 
+arm-none-eabi-objdump -h -S  CubeIDE_Project.elf  > "CubeIDE_Project.list"
+arm-none-eabi-objcopy  -O ihex  CubeIDE_Project.elf  "CubeIDE_Project.hex"
+arm-none-eabi-objcopy  -O binary  CubeIDE_Project.elf  "CubeIDE_Project.bin"
+   text	   data	    bss	    dec	    hex	filename
+  52636	    600	  15392	  68628	  10c14	CubeIDE_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: CubeIDE_Project.hex
+Finished building: CubeIDE_Project.bin
+ 
+ 
+Finished building: CubeIDE_Project.list
+ 
+
+19:19:23 Build Finished. 0 errors, 74 warnings. (took 3s.29ms)
+
