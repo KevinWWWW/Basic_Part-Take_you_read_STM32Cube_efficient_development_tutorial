@@ -179,6 +179,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Demo18_1Poll/Demo18_1Poll/cmake-build-debug" />
       <excludeFolder url="file://$MODULE_DIR$/Demo18_1Poll/Demo18_1Poll/Debug" />
       <excludeFolder url="file://$MODULE_DIR$/Demo18_2Interrupt/Demo18_2Interrupt/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
