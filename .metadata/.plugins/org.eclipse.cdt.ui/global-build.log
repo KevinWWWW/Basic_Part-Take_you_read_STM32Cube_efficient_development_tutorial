@@ -1,421 +1,1143 @@
-22:18:30 **** Incremental Build of configuration Debug for project Demo18_2Interrupt ****
+23:11:36 **** Incremental Build of configuration Debug for project Demo19_1SRAM ****
 make -j12 all 
-arm-none-eabi-gcc "../User/Src/user_can.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_can.d" -MT"User/Src/user_can.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_can.o"
-arm-none-eabi-gcc "../Drivers/BSP/Src/keyled.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/keyled.d" -MT"Drivers/BSP/Src/keyled.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Src/keyled.o"
-arm-none-eabi-gcc "../Drivers/BSP/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/lcd.d" -MT"Drivers/BSP/Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Src/lcd.o"
-arm-none-eabi-gcc "../Core/Src/can.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/can.d" -MT"Core/Src/can.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/can.o"
-arm-none-eabi-gcc "../Core/Src/fsmc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fsmc.d" -MT"Core/Src/fsmc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/fsmc.o"
-arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/rng.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/rng.d" -MT"Core/Src/rng.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/rng.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../User/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
-../User/Src/user_can.c: In function 'CAN_TestPoll':
-../User/Src/user_can.c:67:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-   67 |  sprintf(tempStr, "Send MsgID = %d", msgID);
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:113:4: warning: enumeration value 'KEY_NONE' not handled in switch [-Wswitch]
+  113 |    switch (curkey) {
+      |    ^~~~~~
+../Core/Src/main.c: In function 'SRAM_WriteByFunc':
+../Core/Src/main.c:187:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  187 |   lcd_show_str(10, 9 * 30 + 10, 24, strIn, RED);
+      |                                     ^~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c:193:40: warning: passing argument 3 of 'HAL_SRAM_Write_8b' from incompatible pointer type [-Wincompatible-pointer-types]
+  193 |  if (HAL_SRAM_Write_8b(&hsram3, pAddr, &random32bit, 1) == HAL_OK) {
+      |                                        ^~~~~~~~~~~~
+      |                                        |
+      |                                        uint32_t * {aka long unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:335,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h:164:93: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  164 | HAL_StatusTypeDef HAL_SRAM_Write_8b(SRAM_HandleTypeDef *hsram, uint32_t *pAddress, uint8_t *pSrcBuffer,
+      |                                                                                    ~~~~~~~~~^~~~~~~~~~
+../Core/Src/main.c:196:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  196 |   sprintf(tempStr, "0x%08X", random32bit);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:196:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  196 |   sprintf(tempStr, "0x%08X", random32bit);
+      |                       ~~~^   ~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:197:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  197 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_ReadByFunc':
+../Core/Src/main.c:208:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  208 |   lcd_show_str(10, 9 * 30 + 10, 24, strOut, RED);
+      |                                     ^~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c:216:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  216 |   sprintf(tempStr, "0x%08X", read_32b_num);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:216:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  216 |   sprintf(tempStr, "0x%08X", read_32b_num);
+      |                       ~~~^   ~~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:217:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  217 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:229:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  229 |  sprintf(tempStr, "num_to_write: ");
       |          ^~~~~~~
       |          |
       |          uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:28:
 c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   244 | int sprintf (char *__restrict, const char *__restrict, ...)
       |              ^
-../User/Src/user_can.c:68:36: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-   68 |  lcd_show_str(10, 10 + 7 * 30, 24, tempStr, RED);
-      |                                    ^~~~~~~
-      |                                    |
-      |                                    uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
-../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
-      |                                                         ~~~~~~^
-../User/Src/user_can.c:85:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-   85 |   sprintf(tempStr, "StdID = %d", RxHeader.StdId);
+../Core/Src/main.c:235:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  235 |   sprintf(tempStr, "%s%d, ", tempStr, num_to_write);
       |           ^~~~~~~
       |           |
       |           uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:28:
 c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   244 | int sprintf (char *__restrict, const char *__restrict, ...)
       |              ^
-../User/Src/user_can.c:85:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-   85 |   sprintf(tempStr, "StdID = %d", RxHeader.StdId);
-      |                             ~^   ~~~~~~~~~~~~~~
-      |                              |           |
-      |                              int         uint32_t {aka long unsigned int}
-      |                             %ld
-../User/Src/user_can.c:86:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-   86 |   lcd_show_str(10, 10 + 9 * 30, 24, tempStr, RED);
+../Core/Src/main.c:237:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  237 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
       |                                     ^~~~~~~
       |                                     |
       |                                     uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:29:
 ../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
       |                                                         ~~~~~~^
-../User/Src/user_can.c:88:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-   88 |   sprintf(tempStr, "RTR(0=Data, 2=Remote) = %d", RxHeader.RTR);
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:247:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  247 |  sprintf(tempStr, "num_to_read: ");
+      |          ^~~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:251:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  251 |   sprintf(tempStr, "%s%d, ", tempStr, num_to_read);
       |           ^~~~~~~
       |           |
       |           uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:28:
 c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   244 | int sprintf (char *__restrict, const char *__restrict, ...)
       |              ^
-../User/Src/user_can.c:88:46: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-   88 |   sprintf(tempStr, "RTR(0=Data, 2=Remote) = %d", RxHeader.RTR);
-      |                                             ~^   ~~~~~~~~~~~~
-      |                                              |           |
-      |                                              int         uint32_t {aka long unsigned int}
-      |                                             %ld
-../User/Src/user_can.c:89:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-   89 |   lcd_show_str(10, 10 + 10 * 30, 24, tempStr, RED);
-      |                                      ^~~~~~~
-      |                                      |
-      |                                      uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+../Core/Src/main.c:253:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  253 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
 ../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
       |                                                         ~~~~~~^
-../User/Src/user_can.c:91:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-   91 |   sprintf(tempStr, "IDE(0=Std, 4=Ext) = %d", RxHeader.IDE);
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:235:25: warning: ', ' directive writing 2 bytes into a region of size between 0 and 29 [-Wformat-overflow=]
+  235 |   sprintf(tempStr, "%s%d, ", tempStr, num_to_write);
+      |                         ^~
+../Core/Src/main.c:235:3: note: 'sprintf' output between 4 and 37 bytes into a destination of size 30
+  235 |   sprintf(tempStr, "%s%d, ", tempStr, num_to_write);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:235:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:228:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  228 |  uint8_t tempStr[30];
+      |          ^~~~~~~
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:251:25: warning: ', ' directive writing 2 bytes into a region of size between 0 and 29 [-Wformat-overflow=]
+  251 |   sprintf(tempStr, "%s%d, ", tempStr, num_to_read);
+      |                         ^~
+../Core/Src/main.c:251:3: note: 'sprintf' output between 4 and 37 bytes into a destination of size 30
+  251 |   sprintf(tempStr, "%s%d, ", tempStr, num_to_read);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:251:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:246:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  246 |  uint8_t tempStr[30];
+      |          ^~~~~~~
+arm-none-eabi-gcc -o "Demo19_1SRAM.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Demo19_1SRAM\Demo19_1SRAM\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo19_1SRAM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Demo19_1SRAM.elf
+ 
+arm-none-eabi-size   Demo19_1SRAM.elf 
+arm-none-eabi-objdump -h -S  Demo19_1SRAM.elf  > "Demo19_1SRAM.list"
+   text	   data	    bss	    dec	    hex	filename
+  38612	    124	   1868	  40604	   9e9c	Demo19_1SRAM.elf
+Finished building: default.size.stdout
+ 
+Finished building: Demo19_1SRAM.list
+ 
+23:15:35 **** Incremental Build of configuration Debug for project Demo19_1SRAM ****
+make -j12 all 
+arm-none-eabi-size   Demo19_1SRAM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38612	    124	   1868	  40604	   9e9c	Demo19_1SRAM.elf
+Finished building: default.size.stdout
+ 
+23:18:59 **** Incremental Build of configuration Debug for project Demo19_1SRAM ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:113:4: warning: enumeration value 'KEY_NONE' not handled in switch [-Wswitch]
+  113 |    switch (curkey) {
+      |    ^~~~~~
+../Core/Src/main.c: In function 'SRAM_WriteByFunc':
+../Core/Src/main.c:187:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  187 |   lcd_show_str(10, 9 * 30 + 10, 24, strIn, RED);
+      |                                     ^~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c:193:40: warning: passing argument 3 of 'HAL_SRAM_Write_8b' from incompatible pointer type [-Wincompatible-pointer-types]
+  193 |  if (HAL_SRAM_Write_8b(&hsram3, pAddr, &random32bit, 1) == HAL_OK) {
+      |                                        ^~~~~~~~~~~~
+      |                                        |
+      |                                        uint32_t * {aka long unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:335,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h:164:93: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  164 | HAL_StatusTypeDef HAL_SRAM_Write_8b(SRAM_HandleTypeDef *hsram, uint32_t *pAddress, uint8_t *pSrcBuffer,
+      |                                                                                    ~~~~~~~~~^~~~~~~~~~
+../Core/Src/main.c:196:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  196 |   sprintf(tempStr, "0x%08X", random32bit);
       |           ^~~~~~~
       |           |
       |           uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:28:
 c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   244 | int sprintf (char *__restrict, const char *__restrict, ...)
       |              ^
-../User/Src/user_can.c:91:42: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-   91 |   sprintf(tempStr, "IDE(0=Std, 4=Ext) = %d", RxHeader.IDE);
-      |                                         ~^   ~~~~~~~~~~~~
-      |                                          |           |
-      |                                          int         uint32_t {aka long unsigned int}
-      |                                         %ld
-../User/Src/user_can.c:92:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-   92 |   lcd_show_str(10, 10 + 11 * 30, 24, tempStr, RED);
+../Core/Src/main.c:196:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  196 |   sprintf(tempStr, "0x%08X", random32bit);
+      |                       ~~~^   ~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:197:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  197 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
       |                                      ^~~~~~~
       |                                      |
       |                                      uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:29:
 ../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
       |                                                         ~~~~~~^
-../User/Src/user_can.c:94:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-   94 |   sprintf(tempStr, "DLC(Data Length) = %d", RxHeader.DLC);
+../Core/Src/main.c: In function 'SRAM_ReadByFunc':
+../Core/Src/main.c:208:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  208 |   lcd_show_str(10, 9 * 30 + 10, 24, strOut, RED);
+      |                                     ^~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c:216:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  216 |   sprintf(tempStr, "0x%08X", read_32b_num);
       |           ^~~~~~~
       |           |
       |           uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:28:
 c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   244 | int sprintf (char *__restrict, const char *__restrict, ...)
       |              ^
-../User/Src/user_can.c:94:41: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-   94 |   sprintf(tempStr, "DLC(Data Length) = %d", RxHeader.DLC);
-      |                                        ~^   ~~~~~~~~~~~~
-      |                                         |           |
-      |                                         int         uint32_t {aka long unsigned int}
-      |                                        %ld
-../User/Src/user_can.c:95:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-   95 |   lcd_show_str(10, 10 + 12 * 30, 24, tempStr, RED);
+../Core/Src/main.c:216:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  216 |   sprintf(tempStr, "0x%08X", read_32b_num);
+      |                       ~~~^   ~~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:217:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  217 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
       |                                      ^~~~~~~
       |                                      |
       |                                      uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:29:
 ../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
       |                                                         ~~~~~~^
-../User/Src/user_can.c:98:12: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-   98 |    sprintf(tempStr, "Data[0] = %d", RxData[0]);
-      |            ^~~~~~~
-      |            |
-      |            uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:229:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  229 |  sprintf(tempStr, "");
+      |          ^~~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
 c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   244 | int sprintf (char *__restrict, const char *__restrict, ...)
       |              ^
-../User/Src/user_can.c:99:39: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-   99 |    lcd_show_str(10, 10 + 13 * 30, 24, tempStr, RED);
+../Core/Src/main.c:229:19: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  229 |  sprintf(tempStr, "");
+      |                   ^~
+../Core/Src/main.c:235:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  235 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:237:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  237 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:247:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  247 |  sprintf(tempStr, "");
+      |          ^~~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:247:19: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  247 |  sprintf(tempStr, "");
+      |                   ^~
+../Core/Src/main.c:251:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  251 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:253:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  253 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:235:25: warning: ' ' directive writing 1 byte into a region of size between 0 and 29 [-Wformat-overflow=]
+  235 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |                         ^
+../Core/Src/main.c:235:3: note: 'sprintf' output between 3 and 36 bytes into a destination of size 30
+  235 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:235:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:228:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  228 |  uint8_t tempStr[30];
+      |          ^~~~~~~
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:251:25: warning: ' ' directive writing 1 byte into a region of size between 0 and 29 [-Wformat-overflow=]
+  251 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |                         ^
+../Core/Src/main.c:251:3: note: 'sprintf' output between 3 and 36 bytes into a destination of size 30
+  251 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:251:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:246:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  246 |  uint8_t tempStr[30];
+      |          ^~~~~~~
+arm-none-eabi-gcc -o "Demo19_1SRAM.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Demo19_1SRAM\Demo19_1SRAM\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo19_1SRAM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Demo19_1SRAM.elf
+ 
+arm-none-eabi-size   Demo19_1SRAM.elf 
+arm-none-eabi-objdump -h -S  Demo19_1SRAM.elf  > "Demo19_1SRAM.list"
+   text	   data	    bss	    dec	    hex	filename
+  38584	    124	   1868	  40576	   9e80	Demo19_1SRAM.elf
+Finished building: default.size.stdout
+ 
+Finished building: Demo19_1SRAM.list
+ 
+23:21:28 **** Incremental Build of configuration Debug for project Demo19_1SRAM ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:113:4: warning: enumeration value 'KEY_NONE' not handled in switch [-Wswitch]
+  113 |    switch (curkey) {
+      |    ^~~~~~
+../Core/Src/main.c: In function 'SRAM_WriteByFunc':
+../Core/Src/main.c:187:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  187 |   lcd_show_str(10, 9 * 30 + 10, 24, strIn, RED);
+      |                                     ^~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c:193:40: warning: passing argument 3 of 'HAL_SRAM_Write_8b' from incompatible pointer type [-Wincompatible-pointer-types]
+  193 |  if (HAL_SRAM_Write_8b(&hsram3, pAddr, &random32bit, 1) == HAL_OK) {
+      |                                        ^~~~~~~~~~~~
+      |                                        |
+      |                                        uint32_t * {aka long unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:335,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h:164:93: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  164 | HAL_StatusTypeDef HAL_SRAM_Write_8b(SRAM_HandleTypeDef *hsram, uint32_t *pAddress, uint8_t *pSrcBuffer,
+      |                                                                                    ~~~~~~~~~^~~~~~~~~~
+../Core/Src/main.c:196:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  196 |   sprintf(tempStr, "0x%08X", random32bit);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:196:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  196 |   sprintf(tempStr, "0x%08X", random32bit);
+      |                       ~~~^   ~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:197:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  197 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_ReadByFunc':
+../Core/Src/main.c:206:39: warning: passing argument 3 of 'HAL_SRAM_Read_8b' from incompatible pointer type [-Wincompatible-pointer-types]
+  206 |  if (HAL_SRAM_Read_8b(&hsram3, pAddr, &strOut, dataLen) == HAL_OK) {
       |                                       ^~~~~~~
       |                                       |
-      |                                       uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+      |                                       uint8_t (*)[30] {aka unsigned char (*)[30]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:335,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h:162:92: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[30]' {aka 'unsigned char (*)[30]'}
+  162 | HAL_StatusTypeDef HAL_SRAM_Read_8b(SRAM_HandleTypeDef *hsram, uint32_t *pAddress, uint8_t *pDstBuffer,
+      |                                                                                   ~~~~~~~~~^~~~~~~~~~
+../Core/Src/main.c:208:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  208 |   lcd_show_str(10, 9 * 30 + 10, 24, strOut, RED);
+      |                                     ^~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
 ../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
       |                                                         ~~~~~~^
-../User/Src/user_can.c:101:12: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  101 |    sprintf(tempStr, "Data[1] = %d", RxData[1]);
-      |            ^~~~~~~
-      |            |
-      |            uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+../Core/Src/main.c:216:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  216 |   sprintf(tempStr, "0x%08X", read_32b_num);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
 c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   244 | int sprintf (char *__restrict, const char *__restrict, ...)
       |              ^
-../User/Src/user_can.c:102:39: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-  102 |    lcd_show_str(10, 10 + 14 * 30, 24, tempStr, RED);
+../Core/Src/main.c:216:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  216 |   sprintf(tempStr, "0x%08X", read_32b_num);
+      |                       ~~~^   ~~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:217:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  217 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:229:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  229 |  sprintf(tempStr, "");
+      |          ^~~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:229:19: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  229 |  sprintf(tempStr, "");
+      |                   ^~
+../Core/Src/main.c:235:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  235 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:237:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  237 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:247:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  247 |  sprintf(tempStr, "");
+      |          ^~~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:247:19: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  247 |  sprintf(tempStr, "");
+      |                   ^~
+../Core/Src/main.c:251:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  251 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:253:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  253 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:235:25: warning: ' ' directive writing 1 byte into a region of size between 0 and 29 [-Wformat-overflow=]
+  235 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |                         ^
+../Core/Src/main.c:235:3: note: 'sprintf' output between 3 and 36 bytes into a destination of size 30
+  235 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:235:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:228:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  228 |  uint8_t tempStr[30];
+      |          ^~~~~~~
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:251:25: warning: ' ' directive writing 1 byte into a region of size between 0 and 29 [-Wformat-overflow=]
+  251 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |                         ^
+../Core/Src/main.c:251:3: note: 'sprintf' output between 3 and 36 bytes into a destination of size 30
+  251 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:251:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:246:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  246 |  uint8_t tempStr[30];
+      |          ^~~~~~~
+arm-none-eabi-gcc -o "Demo19_1SRAM.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Demo19_1SRAM\Demo19_1SRAM\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo19_1SRAM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Demo19_1SRAM.elf
+ 
+arm-none-eabi-size   Demo19_1SRAM.elf 
+arm-none-eabi-objdump -h -S  Demo19_1SRAM.elf  > "Demo19_1SRAM.list"
+   text	   data	    bss	    dec	    hex	filename
+  38584	    124	   1868	  40576	   9e80	Demo19_1SRAM.elf
+Finished building: default.size.stdout
+ 
+Finished building: Demo19_1SRAM.list
+ 
+23:22:50 **** Incremental Build of configuration Debug for project Demo19_1SRAM ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:113:4: warning: enumeration value 'KEY_NONE' not handled in switch [-Wswitch]
+  113 |    switch (curkey) {
+      |    ^~~~~~
+../Core/Src/main.c: In function 'SRAM_WriteByFunc':
+../Core/Src/main.c:187:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  187 |   lcd_show_str(10, 9 * 30 + 10, 24, strIn, RED);
+      |                                     ^~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c:193:40: warning: passing argument 3 of 'HAL_SRAM_Write_8b' from incompatible pointer type [-Wincompatible-pointer-types]
+  193 |  if (HAL_SRAM_Write_8b(&hsram3, pAddr, &random32bit, 1) == HAL_OK) {
+      |                                        ^~~~~~~~~~~~
+      |                                        |
+      |                                        uint32_t * {aka long unsigned int *}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:335,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h:164:93: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+  164 | HAL_StatusTypeDef HAL_SRAM_Write_8b(SRAM_HandleTypeDef *hsram, uint32_t *pAddress, uint8_t *pSrcBuffer,
+      |                                                                                    ~~~~~~~~~^~~~~~~~~~
+../Core/Src/main.c:196:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  196 |   sprintf(tempStr, "0x%08X", random32bit);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:196:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  196 |   sprintf(tempStr, "0x%08X", random32bit);
+      |                       ~~~^   ~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:197:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  197 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_ReadByFunc':
+../Core/Src/main.c:206:39: warning: passing argument 3 of 'HAL_SRAM_Read_8b' from incompatible pointer type [-Wincompatible-pointer-types]
+  206 |  if (HAL_SRAM_Read_8b(&hsram3, pAddr, &strOut, dataLen) == HAL_OK) {
       |                                       ^~~~~~~
       |                                       |
-      |                                       uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+      |                                       uint8_t (*)[30] {aka unsigned char (*)[30]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:335,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h:162:92: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[30]' {aka 'unsigned char (*)[30]'}
+  162 | HAL_StatusTypeDef HAL_SRAM_Read_8b(SRAM_HandleTypeDef *hsram, uint32_t *pAddress, uint8_t *pDstBuffer,
+      |                                                                                   ~~~~~~~~~^~~~~~~~~~
+../Core/Src/main.c:208:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  208 |   lcd_show_str(10, 9 * 30 + 10, 24, strOut, RED);
+      |                                     ^~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
 ../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
       |                                                         ~~~~~~^
-../User/Src/user_can.c: In function 'CAN_SendMsg':
-../User/Src/user_can.c:129:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  129 |  sprintf(tempStr, "Send MsgID = %d", msgID);
-      |          ^~~~~~~
-      |          |
-      |          uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+../Core/Src/main.c:216:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  216 |   sprintf(tempStr, "0x%08X", read_32b_num);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
 c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   244 | int sprintf (char *__restrict, const char *__restrict, ...)
       |              ^
-../User/Src/user_can.c:130:36: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-  130 |  lcd_show_str(10, 10 + 7 * 30, 24, tempStr, RED);
-      |                                    ^~~~~~~
-      |                                    |
-      |                                    uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+../Core/Src/main.c:216:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  216 |   sprintf(tempStr, "0x%08X", read_32b_num);
+      |                       ~~~^   ~~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:217:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  217 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
 ../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
       |                                                         ~~~~~~^
-../User/Src/user_can.c: In function 'CAN_ReadMsg':
-../User/Src/user_can.c:157:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  157 |  sprintf(tempStr, "StdID = %d", RxHeader.StdId);
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:229:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  229 |  sprintf(tempStr, "");
       |          ^~~~~~~
       |          |
       |          uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:28:
 c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   244 | int sprintf (char *__restrict, const char *__restrict, ...)
       |              ^
-../User/Src/user_can.c:157:29: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-  157 |  sprintf(tempStr, "StdID = %d", RxHeader.StdId);
-      |                            ~^   ~~~~~~~~~~~~~~
-      |                             |           |
-      |                             int         uint32_t {aka long unsigned int}
-      |                            %ld
-../User/Src/user_can.c:158:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-  158 |  lcd_show_str(10, 10 + 11 * 30, 24, tempStr, RED);
+../Core/Src/main.c:229:19: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  229 |  sprintf(tempStr, "");
+      |                   ^~
+../Core/Src/main.c:235:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  235 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:237:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  237 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
       |                                     ^~~~~~~
       |                                     |
       |                                     uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:29:
 ../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
       |                                                         ~~~~~~^
-../User/Src/user_can.c:160:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  160 |  sprintf(tempStr, "RTR(0=Data, 2=Remote) = %d", RxHeader.RTR);
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:247:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  247 |  sprintf(tempStr, "");
       |          ^~~~~~~
       |          |
       |          uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:28:
 c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   244 | int sprintf (char *__restrict, const char *__restrict, ...)
       |              ^
-../User/Src/user_can.c:160:45: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-  160 |  sprintf(tempStr, "RTR(0=Data, 2=Remote) = %d", RxHeader.RTR);
-      |                                            ~^   ~~~~~~~~~~~~
-      |                                             |           |
-      |                                             int         uint32_t {aka long unsigned int}
-      |                                            %ld
-../User/Src/user_can.c:161:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-  161 |  lcd_show_str(10, 10 + 12 * 30, 24, tempStr, RED);
+../Core/Src/main.c:247:19: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  247 |  sprintf(tempStr, "");
+      |                   ^~
+../Core/Src/main.c:251:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  251 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:253:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  253 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
       |                                     ^~~~~~~
       |                                     |
       |                                     uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
+In file included from ../Core/Src/main.c:29:
 ../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
   236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
       |                                                         ~~~~~~^
-../User/Src/user_can.c:163:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  163 |  sprintf(tempStr, "IDE(0=Std, 4=Ext) = %d", RxHeader.IDE);
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:235:25: warning: ' ' directive writing 1 byte into a region of size between 0 and 29 [-Wformat-overflow=]
+  235 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |                         ^
+../Core/Src/main.c:235:3: note: 'sprintf' output between 3 and 36 bytes into a destination of size 30
+  235 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:235:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:228:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  228 |  uint8_t tempStr[30];
       |          ^~~~~~~
-      |          |
-      |          uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
-c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  244 | int sprintf (char *__restrict, const char *__restrict, ...)
-      |              ^
-../User/Src/user_can.c:163:41: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-  163 |  sprintf(tempStr, "IDE(0=Std, 4=Ext) = %d", RxHeader.IDE);
-      |                                        ~^   ~~~~~~~~~~~~
-      |                                         |           |
-      |                                         int         uint32_t {aka long unsigned int}
-      |                                        %ld
-../User/Src/user_can.c:164:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-  164 |  lcd_show_str(10, 10 + 13 * 30, 24, tempStr, RED);
-      |                                     ^~~~~~~
-      |                                     |
-      |                                     uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
-../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
-      |                                                         ~~~~~~^
-../User/Src/user_can.c:166:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  166 |  sprintf(tempStr, "DLC(Data Length) = %d", RxHeader.DLC);
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:251:25: warning: ' ' directive writing 1 byte into a region of size between 0 and 29 [-Wformat-overflow=]
+  251 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |                         ^
+../Core/Src/main.c:251:3: note: 'sprintf' output between 3 and 36 bytes into a destination of size 30
+  251 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:251:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:246:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  246 |  uint8_t tempStr[30];
       |          ^~~~~~~
-      |          |
-      |          uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
-c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  244 | int sprintf (char *__restrict, const char *__restrict, ...)
-      |              ^
-../User/Src/user_can.c:166:40: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-  166 |  sprintf(tempStr, "DLC(Data Length) = %d", RxHeader.DLC);
-      |                                       ~^   ~~~~~~~~~~~~
-      |                                        |           |
-      |                                        int         uint32_t {aka long unsigned int}
-      |                                       %ld
-../User/Src/user_can.c:167:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-  167 |  lcd_show_str(10, 10 + 14 * 30, 24, tempStr, RED);
-      |                                     ^~~~~~~
-      |                                     |
-      |                                     uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
-../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
-      |                                                         ~~~~~~^
-../User/Src/user_can.c:169:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
-  169 |  sprintf(tempStr, "Data = %02X %02X %02X %02X", RxData[0], RxData[1], RxData[2], RxData[3]);
-      |          ^~~~~~~
-      |          |
-      |          uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:35,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
-c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  244 | int sprintf (char *__restrict, const char *__restrict, ...)
-      |              ^
-../User/Src/user_can.c:170:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-  170 |  lcd_show_str(10, 10 + 15 * 30, 24, tempStr, RED);
-      |                                     ^~~~~~~
-      |                                     |
-      |                                     uint8_t * {aka unsigned char *}
-In file included from ../Core/Inc/main.h:39,
-                 from ../User/Inc/user_can.h:11,
-                 from ../User/Src/user_can.c:8:
-../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
-  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
-      |                                                         ~~~~~~^
-../Drivers/BSP/Src/lcd.c: In function 'lcd_init':
-../Drivers/BSP/Src/lcd.c:662:9: warning: implicit declaration of function 'lcd_ex_st7789_reginit' [-Wimplicit-function-declaration]
-  662 |         lcd_ex_st7789_reginit();        /* 执行ST7789初始�? */
-      |         ^~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:666:9: warning: implicit declaration of function 'lcd_ex_ili9341_reginit' [-Wimplicit-function-declaration]
-  666 |         lcd_ex_ili9341_reginit();       /* 执行ILI9341初始�? */
-      |         ^~~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:670:9: warning: implicit declaration of function 'lcd_ex_nt35310_reginit' [-Wimplicit-function-declaration]
-  670 |         lcd_ex_nt35310_reginit();       /* 执行NT35310初始�? */
-      |         ^~~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:674:9: warning: implicit declaration of function 'lcd_ex_nt35510_reginit' [-Wimplicit-function-declaration]
-  674 |         lcd_ex_nt35510_reginit();       /* 执行NT35510初始�? */
-      |         ^~~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:678:9: warning: implicit declaration of function 'lcd_ex_ssd1963_reginit' [-Wimplicit-function-declaration]
-  678 |         lcd_ex_ssd1963_reginit();       /* 执行SSD1963初始�? */
-      |         ^~~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c: At top level:
-../Drivers/BSP/Src/lcd.c:1234:6: warning: conflicting types for 'lcd_ex_st7789_reginit'
- 1234 | void lcd_ex_st7789_reginit(void)
-      |      ^~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:662:9: note: previous implicit declaration of 'lcd_ex_st7789_reginit' was here
-  662 |         lcd_ex_st7789_reginit();        /* 执行ST7789初始�? */
-      |         ^~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:1332:6: warning: conflicting types for 'lcd_ex_ili9341_reginit'
- 1332 | void lcd_ex_ili9341_reginit(void)
-      |      ^~~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:666:9: note: previous implicit declaration of 'lcd_ex_ili9341_reginit' was here
-  666 |         lcd_ex_ili9341_reginit();       /* 执行ILI9341初始�? */
-      |         ^~~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:1434:6: warning: conflicting types for 'lcd_ex_nt35310_reginit'
- 1434 | void lcd_ex_nt35310_reginit(void)
-      |      ^~~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:670:9: note: previous implicit declaration of 'lcd_ex_nt35310_reginit' was here
-  670 |         lcd_ex_nt35310_reginit();       /* 执行NT35310初始�? */
-      |         ^~~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:2120:6: warning: conflicting types for 'lcd_ex_nt35510_reginit'
- 2120 | void lcd_ex_nt35510_reginit(void)
-      |      ^~~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:674:9: note: previous implicit declaration of 'lcd_ex_nt35510_reginit' was here
-  674 |         lcd_ex_nt35510_reginit();       /* 执行NT35510初始�? */
-      |         ^~~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:2539:6: warning: conflicting types for 'lcd_ex_ssd1963_reginit'
- 2539 | void lcd_ex_ssd1963_reginit(void)
-      |      ^~~~~~~~~~~~~~~~~~~~~~
-../Drivers/BSP/Src/lcd.c:678:9: note: previous implicit declaration of 'lcd_ex_ssd1963_reginit' was here
-  678 |         lcd_ex_ssd1963_reginit();       /* 执行SSD1963初始�? */
-      |         ^~~~~~~~~~~~~~~~~~~~~~
-arm-none-eabi-gcc -o "Demo18_2Interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Demo18_2Interrupt\Demo18_2Interrupt\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo18_2Interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Demo18_2Interrupt.elf
+arm-none-eabi-gcc -o "Demo19_1SRAM.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Demo19_1SRAM\Demo19_1SRAM\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo19_1SRAM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Demo19_1SRAM.elf
  
-arm-none-eabi-size   Demo18_2Interrupt.elf 
-arm-none-eabi-objdump -h -S  Demo18_2Interrupt.elf  > "Demo18_2Interrupt.list"
+arm-none-eabi-size   Demo19_1SRAM.elf 
+arm-none-eabi-objdump -h -S  Demo19_1SRAM.elf  > "Demo19_1SRAM.list"
    text	   data	    bss	    dec	    hex	filename
-  41912	    124	   1828	  43864	   ab58	Demo18_2Interrupt.elf
+  38600	    124	   1868	  40592	   9e90	Demo19_1SRAM.elf
 Finished building: default.size.stdout
  
-Finished building: Demo18_2Interrupt.list
+Finished building: Demo19_1SRAM.list
  
-22:19:40 **** Incremental Build of configuration Debug for project Demo18_2Interrupt ****
+23:23:52 **** Incremental Build of configuration Debug for project Demo19_1SRAM ****
 make -j12 all 
-arm-none-eabi-size   Demo18_2Interrupt.elf 
+arm-none-eabi-size   Demo19_1SRAM.elf 
    text	   data	    bss	    dec	    hex	filename
-  41912	    124	   1828	  43864	   ab58	Demo18_2Interrupt.elf
+  38600	    124	   1868	  40592	   9e90	Demo19_1SRAM.elf
 Finished building: default.size.stdout
  
-22:19:50 **** Incremental Build of configuration Debug for project Demo18_2Interrupt ****
+23:26:27 **** Incremental Build of configuration Debug for project Demo19_1SRAM ****
 make -j12 all 
-arm-none-eabi-size   Demo18_2Interrupt.elf 
+arm-none-eabi-size   Demo19_1SRAM.elf 
    text	   data	    bss	    dec	    hex	filename
-  41912	    124	   1828	  43864	   ab58	Demo18_2Interrupt.elf
+  38600	    124	   1868	  40592	   9e90	Demo19_1SRAM.elf
 Finished building: default.size.stdout
+ 
+23:36:33 **** Incremental Build of configuration Debug for project Demo19_1SRAM ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:113:4: warning: enumeration value 'KEY_NONE' not handled in switch [-Wswitch]
+  113 |    switch (curkey) {
+      |    ^~~~~~
+../Core/Src/main.c: In function 'SRAM_WriteByFunc':
+../Core/Src/main.c:188:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  188 |   lcd_show_str(10, 9 * 30 + 10, 24, strIn, RED);
+      |                                     ^~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c:197:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  197 |   sprintf(tempStr, "0x%08X", random32bit);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:197:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  197 |   sprintf(tempStr, "0x%08X", random32bit);
+      |                       ~~~^   ~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:198:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  198 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_ReadByFunc':
+../Core/Src/main.c:207:39: warning: passing argument 3 of 'HAL_SRAM_Read_8b' from incompatible pointer type [-Wincompatible-pointer-types]
+  207 |  if (HAL_SRAM_Read_8b(&hsram3, pAddr, &strOut, dataLen) == HAL_OK) {
+      |                                       ^~~~~~~
+      |                                       |
+      |                                       uint8_t (*)[30] {aka unsigned char (*)[30]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:335,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h:162:92: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[30]' {aka 'unsigned char (*)[30]'}
+  162 | HAL_StatusTypeDef HAL_SRAM_Read_8b(SRAM_HandleTypeDef *hsram, uint32_t *pAddress, uint8_t *pDstBuffer,
+      |                                                                                   ~~~~~~~~~^~~~~~~~~~
+../Core/Src/main.c:209:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  209 |   lcd_show_str(10, 9 * 30 + 10, 24, strOut, RED);
+      |                                     ^~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c:217:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  217 |   sprintf(tempStr, "0x%08X", read_32b_num);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:217:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  217 |   sprintf(tempStr, "0x%08X", read_32b_num);
+      |                       ~~~^   ~~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:218:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  218 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:230:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  230 |  sprintf(tempStr, "");
+      |          ^~~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:230:19: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  230 |  sprintf(tempStr, "");
+      |                   ^~
+../Core/Src/main.c:236:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  236 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:238:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  238 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:248:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  248 |  sprintf(tempStr, "");
+      |          ^~~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:248:19: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  248 |  sprintf(tempStr, "");
+      |                   ^~
+../Core/Src/main.c:252:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  252 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:254:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  254 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:236:25: warning: ' ' directive writing 1 byte into a region of size between 0 and 29 [-Wformat-overflow=]
+  236 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |                         ^
+../Core/Src/main.c:236:3: note: 'sprintf' output between 3 and 36 bytes into a destination of size 30
+  236 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:236:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:229:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  229 |  uint8_t tempStr[30];
+      |          ^~~~~~~
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:252:25: warning: ' ' directive writing 1 byte into a region of size between 0 and 29 [-Wformat-overflow=]
+  252 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |                         ^
+../Core/Src/main.c:252:3: note: 'sprintf' output between 3 and 36 bytes into a destination of size 30
+  252 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:252:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:247:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  247 |  uint8_t tempStr[30];
+      |          ^~~~~~~
+arm-none-eabi-gcc -o "Demo19_1SRAM.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Demo19_1SRAM\Demo19_1SRAM\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo19_1SRAM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Demo19_1SRAM.elf
+ 
+arm-none-eabi-size   Demo19_1SRAM.elf 
+arm-none-eabi-objdump -h -S  Demo19_1SRAM.elf  > "Demo19_1SRAM.list"
+   text	   data	    bss	    dec	    hex	filename
+  38884	    124	   1868	  40876	   9fac	Demo19_1SRAM.elf
+Finished building: default.size.stdout
+ 
+Finished building: Demo19_1SRAM.list
+ 
+23:37:06 **** Incremental Build of configuration Debug for project Demo19_1SRAM ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:113:4: warning: enumeration value 'KEY_NONE' not handled in switch [-Wswitch]
+  113 |    switch (curkey) {
+      |    ^~~~~~
+../Core/Src/main.c: In function 'SRAM_WriteByFunc':
+../Core/Src/main.c:191:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  191 |   lcd_show_str(10, 9 * 30 + 10, 24, strIn, RED);
+      |                                     ^~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c:200:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  200 |   sprintf(tempStr, "0x%08X", random32bit);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:200:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  200 |   sprintf(tempStr, "0x%08X", random32bit);
+      |                       ~~~^   ~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:201:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  201 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_ReadByFunc':
+../Core/Src/main.c:210:39: warning: passing argument 3 of 'HAL_SRAM_Read_8b' from incompatible pointer type [-Wincompatible-pointer-types]
+  210 |  if (HAL_SRAM_Read_8b(&hsram3, pAddr, &strOut, dataLen) == HAL_OK) {
+      |                                       ^~~~~~~
+      |                                       |
+      |                                       uint8_t (*)[30] {aka unsigned char (*)[30]}
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:335,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h:162:92: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[30]' {aka 'unsigned char (*)[30]'}
+  162 | HAL_StatusTypeDef HAL_SRAM_Read_8b(SRAM_HandleTypeDef *hsram, uint32_t *pAddress, uint8_t *pDstBuffer,
+      |                                                                                   ~~~~~~~~~^~~~~~~~~~
+../Core/Src/main.c:212:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  212 |   lcd_show_str(10, 9 * 30 + 10, 24, strOut, RED);
+      |                                     ^~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c:220:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  220 |   sprintf(tempStr, "0x%08X", read_32b_num);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:220:26: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  220 |   sprintf(tempStr, "0x%08X", read_32b_num);
+      |                       ~~~^   ~~~~~~~~~~~~
+      |                          |   |
+      |                          |   uint32_t {aka long unsigned int}
+      |                          unsigned int
+      |                       %08lX
+../Core/Src/main.c:221:38: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  221 |   lcd_show_str(10, 11 * 30 + 10, 24, tempStr, RED);
+      |                                      ^~~~~~~
+      |                                      |
+      |                                      uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:233:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  233 |  sprintf(tempStr, "");
+      |          ^~~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:233:19: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  233 |  sprintf(tempStr, "");
+      |                   ^~
+../Core/Src/main.c:239:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  239 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:241:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  241 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:251:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  251 |  sprintf(tempStr, "");
+      |          ^~~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:251:19: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  251 |  sprintf(tempStr, "");
+      |                   ^~
+../Core/Src/main.c:255:11: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  255 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |           ^~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:28:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/main.c:257:37: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
+  257 |  lcd_show_str(10, 10 * 30 + 10, 24, tempStr, RED);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/main.c:29:
+../Drivers/BSP/Inc/lcd.h:236:63: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
+      |                                                         ~~~~~~^
+../Core/Src/main.c: In function 'SRAM_WriteByPointer':
+../Core/Src/main.c:239:25: warning: ' ' directive writing 1 byte into a region of size between 0 and 29 [-Wformat-overflow=]
+  239 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |                         ^
+../Core/Src/main.c:239:3: note: 'sprintf' output between 3 and 36 bytes into a destination of size 30
+  239 |   sprintf(tempStr, "%s%d ", tempStr, num_to_write);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:239:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:232:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  232 |  uint8_t tempStr[30];
+      |          ^~~~~~~
+../Core/Src/main.c: In function 'SRAM_ReadByPointer':
+../Core/Src/main.c:255:25: warning: ' ' directive writing 1 byte into a region of size between 0 and 29 [-Wformat-overflow=]
+  255 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |                         ^
+../Core/Src/main.c:255:3: note: 'sprintf' output between 3 and 36 bytes into a destination of size 30
+  255 |   sprintf(tempStr, "%s%d ", tempStr, num_to_read);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:255:3: warning: 'sprintf' argument 3 overlaps destination object 'tempStr' [-Wrestrict]
+../Core/Src/main.c:250:10: note: destination object referenced by 'restrict'-qualified argument 1 was declared here
+  250 |  uint8_t tempStr[30];
+      |          ^~~~~~~
+arm-none-eabi-gcc -o "Demo19_1SRAM.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Demo19_1SRAM\Demo19_1SRAM\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo19_1SRAM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Demo19_1SRAM.elf
+ 
+arm-none-eabi-size   Demo19_1SRAM.elf 
+arm-none-eabi-objdump -h -S  Demo19_1SRAM.elf  > "Demo19_1SRAM.list"
+   text	   data	    bss	    dec	    hex	filename
+  38948	    124	   1868	  40940	   9fec	Demo19_1SRAM.elf
+Finished building: default.size.stdout
+ 
+Finished building: Demo19_1SRAM.list
  
