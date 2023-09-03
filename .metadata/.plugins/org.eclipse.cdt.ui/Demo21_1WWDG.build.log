@@ -1,0 +1,17 @@
+20:07:12 **** Incremental Build of configuration Debug for project Demo21_1WWDG ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Demo21_1WWDG.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Demo21_1WWDG\Demo21_1WWDG\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo21_1WWDG.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Demo21_1WWDG.elf
+ 
+arm-none-eabi-size   Demo21_1WWDG.elf 
+arm-none-eabi-objdump -h -S  Demo21_1WWDG.elf  > "Demo21_1WWDG.list"
+   text	   data	    bss	    dec	    hex	filename
+   6508	     20	   1588	   8116	   1fb4	Demo21_1WWDG.elf
+Finished building: default.size.stdout
+ 
+Finished building: Demo21_1WWDG.list
+ 
+
+20:07:13 Build Finished. 0 errors, 0 warnings. (took 897ms)
+

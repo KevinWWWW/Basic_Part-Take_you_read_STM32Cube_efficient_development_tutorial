@@ -181,6 +181,9 @@
       <excludeFolder url="file://$MODULE_DIR$/Demo18_2Interrupt/Demo18_2Interrupt/Debug" />
       <excludeFolder url="file://$MODULE_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history" />
       <excludeFolder url="file://$MODULE_DIR$/Demo19_1SRAM/Demo19_1SRAM/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo19_2SRAM_DMA/Demo19_2SRAM_DMA/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo20_1IWDG/Demo20_1IWDG/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo21_1WWDG/Demo21_1WWDG/Debug" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

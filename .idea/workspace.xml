@@ -12,30 +12,57 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="添加第18章Demo">
+    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="添加第19章Demo19_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.ide.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.ide.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/Demo9_1TIM_LED.language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/Demo9_1TIM_LED.language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.dsf.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.dsf.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/Demo13_1USART_DMA.language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/Demo13_1USART_DMA.language.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/Demo19_1SRAM.1693052551437.pdom" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.ui/global-build.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.ui/global-build.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/bf/c4/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/bf/c4/properties.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/d5/1f/c4/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/d5/1f/c4/properties.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo8_1TFTLCD/1.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo9_1TIM_LED/2.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/14.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/33/bf/a3/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/33/bf/c4/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/33/d5/1f/c4/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/33/d5/7a/c4/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/33/eb/c4/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/33/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/bf/c4/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/eb/c4/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo18_2Interrupt/.indexes/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo19_1SRAM/.indexes/af/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo19_1SRAM/.indexes/bf/be/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo19_1SRAM/.indexes/bf/be/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo19_1SRAM/.indexes/bf/c4/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo19_1SRAM/.indexes/bf/c4/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo19_1SRAM/.indexes/d5/1f/be/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo19_1SRAM/.indexes/d5/1f/c4/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo19_1SRAM/.indexes/d5/7a/be/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo19_1SRAM/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo19_1SRAM/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Demo19_1SRAM/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/17.tree" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.core.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.managedbuilder.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.managedbuilder.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.launchbar.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.launchbar.core.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo8_1TFTLCD/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo8_1TFTLCD/.settings/language.settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo9_1TIM_LED/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo9_1TIM_LED/.settings/language.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo10_3PWM_IN/Drivers/BSP/KEY_LED/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo10_3PWM_IN/Drivers/BSP/KEY_LED/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo11_2RTC_BKUP/Demo11_2RTC_BKUP/Drivers/BSP/KEY_LED/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo11_2RTC_BKUP/Demo11_2RTC_BKUP/Drivers/BSP/KEY_LED/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo11_3RTC_Tamper/Demo11_3RTC_Tamper/Drivers/BSP/KEY_LED/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo11_3RTC_Tamper/Demo11_3RTC_Tamper/Drivers/BSP/KEY_LED/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo13_1USART_DMA/Demo13_1USART_DMA/.settings/language.settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo13_1USART_DMA/Demo13_1USART_DMA/.settings/language.settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Drivers/BSP/KEY_LED/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_1SoftTrig/Demo15_1SoftTrig/Drivers/BSP/KEY_LED/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_2TriangWave/Demo15_2TriangWave/Drivers/BSP/KEY_LED/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_2TriangWave/Demo15_2TriangWave/Drivers/BSP/KEY_LED/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo15_3SawtoothDMA/Demo15_3SawtoothDMA/Drivers/BSP/KEY_LED/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo15_3SawtoothDMA/Demo15_3SawtoothDMA/Drivers/BSP/KEY_LED/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo16_1FlashSPI/Demo16_1FlashSPI/Drivers/BSP/Inc/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo16_1FlashSPI/Demo16_1FlashSPI/Drivers/BSP/Inc/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo16_2FlashSPI_DMA/Demo16_2FlashSPI_DMA/Drivers/BSP/Inc/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo16_2FlashSPI_DMA/Demo16_2FlashSPI_DMA/Drivers/BSP/Inc/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo17_1EEPROM/Demo17_1EEPROM/Drivers/BSP/Inc/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo17_1EEPROM/Demo17_1EEPROM/Drivers/BSP/Inc/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo18_1Poll/Demo18_1Poll/Drivers/BSP/Inc/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo18_1Poll/Demo18_1Poll/Drivers/BSP/Inc/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo18_2Interrupt/Demo18_2Interrupt/Drivers/BSP/Inc/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo18_2Interrupt/Demo18_2Interrupt/Drivers/BSP/Inc/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo19_1SRAM/Demo19_1SRAM/Drivers/BSP/Inc/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo19_1SRAM/Demo19_1SRAM/Drivers/BSP/Inc/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo6_1KeyLED/PublicDrivers/KEY_LED/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo6_1KeyLED/PublicDrivers/KEY_LED/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo8_1TFTLCD_V3/Demo8_1TFTLCD_V3/Drivers/BSP/KEY_LED/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo8_1TFTLCD_V3/Demo8_1TFTLCD_V3/Drivers/BSP/KEY_LED/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo9_1TIM_LED/Drivers/BSP/KEY_LED/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo9_1TIM_LED/Drivers/BSP/KEY_LED/keyled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicDrivers/KEY_LED/keyled.h" beforeDir="false" afterPath="$PROJECT_DIR$/PublicDrivers/KEY_LED/keyled.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +73,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -110,7 +138,9 @@
       <workItem from="1689497982997" duration="620000" />
       <workItem from="1692797754448" duration="241000" />
       <workItem from="1692881841321" duration="2000" />
-      <workItem from="1693065228392" duration="1000" />
+      <workItem from="1693065228392" duration="124000" />
+      <workItem from="1693136636581" duration="23000" />
+      <workItem from="1693747025233" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="初始化版本">
       <created>1681404549539</created>
@@ -217,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692797977678</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="添加第19章Demo19_1">
+      <created>1693065319801</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1693065319801</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +285,7 @@
     <MESSAGE value="添加第16章Demo16_1" />
     <MESSAGE value="添加第17章Demo17_1" />
     <MESSAGE value="添加第18章Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加第18章Demo" />
+    <MESSAGE value="添加第19章Demo19_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加第19章Demo19_1" />
   </component>
 </project>

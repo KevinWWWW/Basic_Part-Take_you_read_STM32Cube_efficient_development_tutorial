@@ -1,0 +1,6 @@
+1693722288841	Delete resource 'Demo19_1SRAM'
+1693722312509	Rename resource 'Demo19_1SRAM'
+1693735714070	Delete resource 'Demo20_1IWDG/Drivers/BSP'
+1693741558380	Delete resource 'Demo21_1WWDG/Drivers/BSP/Inc/lcd.h'
+1693741561637	Delete resource 'Demo21_1WWDG/Drivers/BSP/Inc/lcdfont.h'
+1693741563977	Delete resource 'Demo21_1WWDG/Drivers/BSP/Src/lcd.c'

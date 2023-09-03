@@ -1,0 +1,10 @@
+18:30:06 **** Incremental Build of configuration Debug for project Demo20_1IWDG ****
+make -j12 all 
+arm-none-eabi-size   Demo20_1IWDG.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39304	    124	   1820	  41248	   a120	Demo20_1IWDG.elf
+Finished building: default.size.stdout
+ 
+
+18:30:06 Build Finished. 0 errors, 0 warnings. (took 346ms)
+

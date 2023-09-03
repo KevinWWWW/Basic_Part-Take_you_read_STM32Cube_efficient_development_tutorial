@@ -2,8 +2,9 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
 activeLaunchTarget=null\:---
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo19_1SRAM Debug
+configDescList=
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo13_1USART_DMA\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo13_2USART_IDLE_DMA\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo13_2USART_IDLE_DMA\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo16_1FlashSPI\ Debug/activeLaunchMode=run
@@ -16,6 +17,9 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo18_2Interrupt\ Debug/active
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo18_2Interrupt_\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo18_2Interrupt_\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo19_1SRAM\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo19_1SRAM\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo19_2SRAM_DMA\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo20_1IWDG\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo3_1LED\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo3_1LED\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo8_1TFTLCD_V3\ Debug/activeLaunchMode=run
@@ -28,3 +32,5 @@ org.eclipse.launchbar.core.descriptorType.default\:Demo18_2Interrupt\ Debug/acti
 org.eclipse.launchbar.core.descriptorType.default\:Demo18_2Interrupt1\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Demo18_2Interrupt_\ Debug/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Demo18_2Interrupt_\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Demo20_1IWDG\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Demo20_1IWDG\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
