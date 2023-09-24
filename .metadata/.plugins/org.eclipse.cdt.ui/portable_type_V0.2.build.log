@@ -1,0 +1,1126 @@
+15:40:28 **** Incremental Build of configuration Debug for project portable_type_V0.2 ****
+make -j12 all 
+arm-none-eabi-gcc "../User/Src/all_var.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/all_var.d" -MT"User/Src/all_var.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/all_var.o"
+arm-none-eabi-gcc "../User/Src/lvgl_show.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/lvgl_show.d" -MT"User/Src/lvgl_show.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/lvgl_show.o"
+arm-none-eabi-gcc "../User/Src/user_rtc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_rtc.d" -MT"User/Src/user_rtc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_rtc.o"
+arm-none-eabi-gcc "../User/Src/user_task_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_task_adc.d" -MT"User/Src/user_task_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_task_adc.o"
+arm-none-eabi-gcc "../User/Src/user_task_buzzer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_task_buzzer.d" -MT"User/Src/user_task_buzzer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_task_buzzer.o"
+arm-none-eabi-gcc "../User/Src/user_task_key.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_task_key.d" -MT"User/Src/user_task_key.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_task_key.o"
+arm-none-eabi-gcc "../User/Src/user_task_lvgl.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_task_lvgl.d" -MT"User/Src/user_task_lvgl.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_task_lvgl.o"
+arm-none-eabi-gcc "../User/Src/user_task_sensor.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_task_sensor.d" -MT"User/Src/user_task_sensor.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_task_sensor.o"
+arm-none-eabi-gcc "../User/Src/user_task_wifi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_task_wifi.d" -MT"User/Src/user_task_wifi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_task_wifi.o"
+arm-none-eabi-gcc "../User/Src/user_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_uart.d" -MT"User/Src/user_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_uart.o"
+arm-none-eabi-gcc "../User/Src/user_uart1.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_uart1.d" -MT"User/Src/user_uart1.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_uart1.o"
+arm-none-eabi-gcc "../User/Src/user_uart2.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_uart2.d" -MT"User/Src/user_uart2.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_uart2.o"
+../User/Src/lvgl_show.c: In function 'fresh_lvgl_screen':
+../User/Src/lvgl_show.c:403:41: warning: pointer targets in passing argument 2 of 'lv_label_set_text' differ in signedness [-Wpointer-sign]
+  403 |         lv_label_set_text(ui_LabelTime, lv_time_str);
+      |                                         ^~~~~~~~~~~
+      |                                         |
+      |                                         uint8_t * {aka unsigned char *}
+In file included from ../Middlewares/Third_Party/LVGL/GUI/lvgl/lvgl.h:49,
+                 from ../Middlewares/Third_Party/LVGL/GUI_APP/ui/ui.h:13,
+                 from ../Core/Inc/main.h:41,
+                 from ../User/Inc/lvgl_show.h:11,
+                 from ../User/Src/lvgl_show.c:8:
+../Middlewares/Third_Party/LVGL/GUI/lvgl/src/widgets/lv_label.h:101:53: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  101 | void lv_label_set_text(lv_obj_t * obj, const char * text);
+      |                                        ~~~~~~~~~~~~~^~~~
+../User/Src/lvgl_show.c:410:21: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  410 |             sprintf(temp_Str, "0.00E+00 ");
+      |                     ^~~~~~~~
+      |                     |
+      |                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/lvgl_show.h:11,
+                 from ../User/Src/lvgl_show.c:8:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/lvgl_show.c:414:29: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  414 |                     sprintf(temp_Str, "%.2E ", probe_order_t.gamma_value);
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/lvgl_show.h:11,
+                 from ../User/Src/lvgl_show.c:8:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/lvgl_show.c:417:29: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  417 |                     sprintf(temp_Str, "%.2E ", probe_order_t.gamma_value / 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/lvgl_show.h:11,
+                 from ../User/Src/lvgl_show.c:8:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/lvgl_show.c:420:29: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  420 |                     sprintf(temp_Str, "%.2E ", probe_order_t.gamma_value / 1000 / 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/lvgl_show.h:11,
+                 from ../User/Src/lvgl_show.c:8:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/lvgl_show.c:423:29: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  423 |                     sprintf(temp_Str, "%.2E ", probe_order_t.gamma_value / 1.2);
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/lvgl_show.h:11,
+                 from ../User/Src/lvgl_show.c:8:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/lvgl_show.c:426:29: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  426 |                     sprintf(temp_Str, "%.2E ", probe_order_t.gamma_value / 1.2 / 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/lvgl_show.h:11,
+                 from ../User/Src/lvgl_show.c:8:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/lvgl_show.c:429:29: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  429 |                     sprintf(temp_Str, "%.2E ", probe_order_t.gamma_value / 1.2 / 1000 / 1000);
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/lvgl_show.h:11,
+                 from ../User/Src/lvgl_show.c:8:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_rtc.c: In function 'HAL_RTCEx_WakeUpTimerEventCallback':
+../User/Src/lvgl_show.c:435:41: warning: pointer targets in passing argument 2 of 'lv_label_set_text' differ in signedness [-Wpointer-sign]
+  435 |         lv_label_set_text(ui_Dosevalue, temp_Str);
+      |                                         ^~~~~~~~
+      |                                         |
+      |                                         uint8_t * {aka unsigned char *}
+../User/Src/user_rtc.c:22:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   22 |         sprintf(lv_time_str, "20%02d-%02d-%02d %02d:%02d:%02d\r\n",
+      |                 ^~~~~~~~~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+In file included from ../Middlewares/Third_Party/LVGL/GUI/lvgl/lvgl.h:49,
+                 from ../Middlewares/Third_Party/LVGL/GUI_APP/ui/ui.h:13,
+                 from ../Core/Inc/main.h:41,
+                 from ../User/Inc/lvgl_show.h:11,
+                 from ../User/Src/lvgl_show.c:8:
+../Middlewares/Third_Party/LVGL/GUI/lvgl/src/widgets/lv_label.h:101:53: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  101 | void lv_label_set_text(lv_obj_t * obj, const char * text);
+      |                                        ~~~~~~~~~~~~~^~~~
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_rtc.h:8,
+                 from ../User/Src/user_rtc.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_task_lvgl.c: In function 'show_threshold_value':
+../User/Src/user_task_lvgl.c:32:13: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   32 |     sprintf(tempThresholdStr, "%.0f uSv/h\n\n\n%.3f mSv/h",
+      |             ^~~~~~~~~~~~~~~~
+      |             |
+      |             uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_task_lvgl.h:8,
+                 from ../User/Src/user_task_lvgl.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_task_lvgl.c:35:47: warning: pointer targets in passing argument 2 of 'lv_label_set_text' differ in signedness [-Wpointer-sign]
+   35 |     lv_label_set_text(ui_LabelThresholdValue, tempThresholdStr);
+      |                                               ^~~~~~~~~~~~~~~~
+      |                                               |
+      |                                               uint8_t * {aka unsigned char *}
+In file included from ../Middlewares/Third_Party/LVGL/GUI/lvgl/lvgl.h:49,
+                 from ../Middlewares/Third_Party/LVGL/GUI_APP/ui/ui.h:13,
+                 from ../Core/Inc/main.h:41,
+                 from ../User/Inc/user_task_lvgl.h:8,
+                 from ../User/Src/user_task_lvgl.c:5:
+../Middlewares/Third_Party/LVGL/GUI/lvgl/src/widgets/lv_label.h:101:53: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  101 | void lv_label_set_text(lv_obj_t * obj, const char * text);
+      |                                        ~~~~~~~~~~~~~^~~~
+../User/Src/user_rtc.c:22:62: warning: '
+   ' directive writing 2 bytes into a region of size between 0 and 6 [-Wformat-overflow=]
+   22 |         sprintf(lv_time_str, "20%02d-%02d-%02d %02d:%02d:%02d\r\n",
+      |                                                              ^~~~
+../User/Src/user_rtc.c:22:9: note: 'sprintf' output between 22 and 28 bytes into a destination of size 25
+   22 |         sprintf(lv_time_str, "20%02d-%02d-%02d %02d:%02d:%02d\r\n",
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   23 |                 sDate.Year, sDate.Month, sDate.Date, sTime.Hours, sTime.Minutes, sTime.Seconds);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../User/Src/user_task_lvgl.c: In function 'cal_gapSecondTime':
+../User/Src/user_task_lvgl.c:278:50: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  278 |         lv_label_set_text_fmt(ui_LabelGapHour, "%d", device_information_t.gap_hour);
+      |                                                 ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                  |                       |
+      |                                                  int                     uint32_t {aka long unsigned int}
+      |                                                 %ld
+../User/Src/user_task_lvgl.c:279:52: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  279 |         lv_label_set_text_fmt(ui_LabelGapMinute, "%d", device_information_t.gap_minute);
+      |                                                   ~^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                    |                       |
+      |                                                    int                     uint32_t {aka long unsigned int}
+      |                                                   %ld
+../User/Src/user_task_sensor.c: In function 'SensorTask':
+../User/Src/user_task_sensor.c:17:52: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   17 |         HAL_UART_Transmit(&huart2, tempStr, strlen(tempStr), 200);
+      |                                                    ^~~~~~~
+      |                                                    |
+      |                                                    uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_sensor.h:8,
+                 from ../User/Src/user_task_sensor.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart1.c: In function 'UART1_Data_Forward':
+../User/Src/user_uart1.c:22:17: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   22 |     if ((strstr(RxBuffer_UART1, "AT+")) || (strstr(RxBuffer_UART1, "+++"))) {
+      |                 ^~~~~~~~~~~~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart1.c:22:52: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   22 |     if ((strstr(RxBuffer_UART1, "AT+")) || (strstr(RxBuffer_UART1, "+++"))) {
+      |                                                    ^~~~~~~~~~~~~~
+      |                                                    |
+      |                                                    uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart1.c:25:16: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   25 |     if (strstr(RxBuffer_UART1, "XL")) {
+      |                ^~~~~~~~~~~~~~
+      |                |
+      |                uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart1.c: In function 'set_device_parameter':
+../User/Src/user_uart1.c:93:25: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   93 |                 sprintf(temp_time_str, "#Y%d;#O%d;#D%d;#H%d;#M%d;#S%d;",
+      |                         ^~~~~~~~~~~~~
+      |                         |
+      |                         uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_uart1.c:95:66: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   95 |                 HAL_UART_Transmit(&huart1, temp_time_str, strlen(temp_time_str), 200);
+      |                                                                  ^~~~~~~~~~~~~
+      |                                                                  |
+      |                                                                  uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart1.c:154:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  154 |         sprintf(temp_parameter_str, "#J%d;#G%02d;#A%lu;#B%lu;#L%lu;#V%lu;#U%lu;#P%lu;#Q%lu;",
+      |                 ^~~~~~~~~~~~~~~~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_uart2.c: In function 'UART2_Sensor_Data_Process':
+../User/Src/user_uart2.c:18:16: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   18 |     if (strstr(RxBuffer_UART2, "XL+")) {
+      |                ^~~~~~~~~~~~~~
+      |                |
+      |                uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart2.c:22:59: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   22 |         HAL_UART_Transmit(&huart1, RxBuffer_UART2, strlen(RxBuffer_UART2), 200);
+      |                                                           ^~~~~~~~~~~~~~
+      |                                                           |
+      |                                                           uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart2.c: In function 'sendGammaValueWithUart1':
+../User/Src/user_uart2.c:65:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   65 |         sprintf(tempStrUart1, "%.2EuSv/h ", probe_order_t.gamma_value);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_uart2.c:67:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   67 |         sprintf(tempStrUart1, "%.2EmSv/h ", probe_order_t.gamma_value);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_task_wifi.c: In function 'WifiTask':
+../User/Src/user_task_wifi.c:25:12: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+   25 |     strcpy(str_ssid_and_password, "AT+CWJAP=\"TNPJVC-PHONE\",\"\"\r\n");
+      |            ^~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            uint8_t * {aka unsigned char *}
+../User/Src/user_uart2.c:69:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   69 |         sprintf(tempStrUart1, "%.2ESv/h ", probe_order_t.gamma_value);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:16: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                ^
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_uart1.c:164:63: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  164 |         HAL_UART_Transmit(&huart1, temp_parameter_str, strlen(temp_parameter_str), 200);
+      |                                                               ^~~~~~~~~~~~~~~~~~
+      |                                                               |
+      |                                                               uint8_t * {aka unsigned char *}
+../User/Src/user_task_wifi.c:26:12: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+   26 |     strcpy(str_ip_and_port, "AT+CIPSTART=\"TCP\",\"10.80.17.189\",54322\r\n");
+      |            ^~~~~~~~~~~~~~~
+      |            |
+      |            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:16: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                ^
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:34:24: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+   34 |                 strcpy(tempStr, "AT+RST\r\n");
+      |                        ^~~~~~~
+      |                        |
+      |                        uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:16: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                ^
+../User/Src/user_uart1.c: In function 'UART1_Wifi_Data_Forward':
+../User/Src/user_uart1.c:195:16: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+  195 |     if (strstr(RxBuffer_UART1, "AT+CIPSTART=\"TCP\"")) {
+      |                ^~~~~~~~~~~~~~
+      |                |
+      |                uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart2.c:71:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   71 |         sprintf(tempStrUart1, "%.2EuGy/h ", probe_order_t.gamma_value);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_uart1.c:197:16: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+  197 |         strcpy(str_ip_and_port, RxBuffer_UART1);
+      |                ^~~~~~~~~~~~~~~
+      |                |
+      |                uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:16: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                ^
+../User/Src/user_task_wifi.c:35:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   35 |                 HAL_UART_Transmit(&huart3, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart1.c:197:33: warning: pointer targets in passing argument 2 of 'strcpy' differ in signedness [-Wpointer-sign]
+  197 |         strcpy(str_ip_and_port, RxBuffer_UART1);
+      |                                 ^~~~~~~~~~~~~~
+      |                                 |
+      |                                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:34: note: expected 'const char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                                  ^
+../User/Src/user_task_wifi.c:37:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   37 |                 HAL_UART_Transmit(&huart1, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart1.c:203:21: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+  203 |     else if (strstr(RxBuffer_UART1, "AT+CWJAP=\"")) {
+      |                     ^~~~~~~~~~~~~~
+      |                     |
+      |                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:43:24: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+   43 |                 strcpy(tempStr, "AT+CWMODE=1\r\n");
+      |                        ^~~~~~~
+      |                        |
+      |                        uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:16: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                ^
+../User/Src/user_uart1.c:205:16: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+  205 |         strcpy(str_ssid_and_password, RxBuffer_UART1);
+      |                ^~~~~~~~~~~~~~~~~~~~~
+      |                |
+      |                uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:16: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                ^
+../User/Src/user_task_wifi.c:44:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   44 |                 HAL_UART_Transmit(&huart3, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart1.c:205:39: warning: pointer targets in passing argument 2 of 'strcpy' differ in signedness [-Wpointer-sign]
+  205 |         strcpy(str_ssid_and_password, RxBuffer_UART1);
+      |                                       ^~~~~~~~~~~~~~
+      |                                       |
+      |                                       uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:34: note: expected 'const char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                                  ^
+../User/Src/user_task_wifi.c:46:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   46 |                 HAL_UART_Transmit(&huart1, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart1.c:210:21: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+  210 |     else if (strstr(RxBuffer_UART1, "+++")) {
+      |                     ^~~~~~~~~~~~~~
+      |                     |
+      |                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:50:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   50 |                 HAL_UART_Transmit(&huart3, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart2.c:73:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   73 |         sprintf(tempStrUart1, "%.2EmGy/h ", probe_order_t.gamma_value);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_task_wifi.c:52:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   52 |                 HAL_UART_Transmit(&huart1, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart1.c:212:36: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  212 |         HAL_UART_Transmit(&huart3, "+++", strlen("+++"), 200);
+      |                                    ^~~~~
+      |                                    |
+      |                                    char *
+../User/Src/user_task_wifi.c:56:74: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   56 |                 HAL_UART_Transmit(&huart3, str_ssid_and_password, strlen(str_ssid_and_password), 200);
+      |                                                                          ^~~~~~~~~~~~~~~~~~~~~
+      |                                                                          |
+      |                                                                          uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:450,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1674:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1674 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart1.c:216:59: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  216 |         HAL_UART_Transmit(&huart3, RxBuffer_UART1, strlen(RxBuffer_UART1), 200);
+      |                                                           ^~~~~~~~~~~~~~
+      |                                                           |
+      |                                                           uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:58:74: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   58 |                 HAL_UART_Transmit(&huart1, str_ssid_and_password, strlen(str_ssid_and_password), 200);
+      |                                                                          ^~~~~~~~~~~~~~~~~~~~~
+      |                                                                          |
+      |                                                                          uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart1.c: In function 'UART1_Sensor_Date_Forward':
+../User/Src/user_uart1.c:229:55: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  229 |     HAL_UART_Transmit(&huart2, RxBuffer_UART1, strlen(RxBuffer_UART1), 200);
+      |                                                       ^~~~~~~~~~~~~~
+      |                                                       |
+      |                                                       uint8_t * {aka unsigned char *}
+../User/Src/user_task_wifi.c:64:68: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   64 |                 HAL_UART_Transmit(&huart3, str_ip_and_port, strlen(str_ip_and_port), 200);
+      |                                                                    ^~~~~~~~~~~~~~~
+      |                                                                    |
+      |                                                                    uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart1.h:8,
+                 from ../User/Src/user_uart1.c:10:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:66:68: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   66 |                 HAL_UART_Transmit(&huart1, str_ip_and_port, strlen(str_ip_and_port), 200);
+      |                                                                    ^~~~~~~~~~~~~~~
+      |                                                                    |
+      |                                                                    uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:80:24: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+   80 |                 strcpy(tempStr, "AT+CIPMODE=1\r\n");
+      |                        ^~~~~~~
+      |                        |
+      |                        uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:16: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                ^
+../User/Src/user_uart2.c:75:17: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   75 |         sprintf(tempStrUart1, "%.2EGy/h ", probe_order_t.gamma_value);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_task_wifi.c:81:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   81 |                 HAL_UART_Transmit(&huart3, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart2.c:79:53: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   79 |     HAL_UART_Transmit(&huart1, tempStrUart1, strlen(tempStrUart1), 200);
+      |                                                     ^~~~~~~~~~~~
+      |                                                     |
+      |                                                     uint8_t * {aka unsigned char *}
+../User/Src/user_task_wifi.c:83:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   83 |                 HAL_UART_Transmit(&huart1, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart2.c: In function 'SendMaxAndAverageValue':
+../User/Src/user_uart2.c:103:21: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  103 |             sprintf(tempStr3, "{\"dn\":\"%02d\","
+      |                     ^~~~~~~~
+      |                     |
+      |                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_uart2.c:128:57: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  128 |             HAL_UART_Transmit(&huart3, tempStr3, strlen(tempStr3), 200);
+      |                                                         ^~~~~~~~
+      |                                                         |
+      |                                                         uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:87:24: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+   87 |                 strcpy(tempStr, "AT+CIPSEND\r\n");
+      |                        ^~~~~~~
+      |                        |
+      |                        uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:16: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                ^
+../User/Src/user_uart2.c:130:57: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  130 |             HAL_UART_Transmit(&huart1, tempStr3, strlen(tempStr3), 200);
+      |                                                         ^~~~~~~~
+      |                                                         |
+      |                                                         uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:88:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   88 |                 HAL_UART_Transmit(&huart3, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart2.c: In function 'SendNowValue':
+../User/Src/user_uart2.c:145:13: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  145 |     sprintf(tempStr3, "{\"dn\":\"%02d\","
+      |             ^~~~~~~~
+      |             |
+      |             uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_task_wifi.c:90:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   90 |                 HAL_UART_Transmit(&huart1, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart2.c:166:49: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  166 |     HAL_UART_Transmit(&huart3, tempStr3, strlen(tempStr3), 200);
+      |                                                 ^~~~~~~~
+      |                                                 |
+      |                                                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart2.c:168:49: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  168 |     HAL_UART_Transmit(&huart1, tempStr3, strlen(tempStr3), 200);
+      |                                                 ^~~~~~~~
+      |                                                 |
+      |                                                 uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart2.h:8,
+                 from ../User/Src/user_uart2.c:6:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:100:48: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  100 |                     HAL_UART_Transmit(&huart3, "+++", strlen("+++"), 200);
+      |                                                ^~~~~
+      |                                                |
+      |                                                char *
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:450,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1674:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1674 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../User/Src/user_task_wifi.c:109:24: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+  109 |                 strcpy(tempStr, "AT+CIPMODE=0\r\n");
+      |                        ^~~~~~~
+      |                        |
+      |                        uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:16: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                ^
+../User/Src/user_task_wifi.c:110:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  110 |                 HAL_UART_Transmit(&huart3, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:112:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  112 |                 HAL_UART_Transmit(&huart1, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:119:24: warning: pointer targets in passing argument 1 of 'strcpy' differ in signedness [-Wpointer-sign]
+  119 |                 strcpy(tempStr, "AT+CWJAP?\r\n");
+      |                        ^~~~~~~
+      |                        |
+      |                        uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:38:16: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   38 | char  *strcpy (char *__restrict, const char *__restrict);
+      |                ^
+../User/Src/user_task_wifi.c:120:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  120 |                 HAL_UART_Transmit(&huart3, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_task_wifi.c:122:60: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  122 |                 HAL_UART_Transmit(&huart1, tempStr, strlen(tempStr), 200);
+      |                                                            ^~~~~~~
+      |                                                            |
+      |                                                            uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_task_wifi.h:8,
+                 from ../User/Src/user_task_wifi.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+arm-none-eabi-gcc "../User/Src/user_uart3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"User/Src/user_uart3.d" -MT"User/Src/user_uart3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "User/Src/user_uart3.o"
+../User/Src/user_uart3.c: In function 'UART3_Wifi_AT_Process':
+../User/Src/user_uart3.c:20:20: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   20 |         if (strstr(RxBuffer_UART3, "WIFI CONNECTED")) {
+      |                    ^~~~~~~~~~~~~~
+      |                    |
+      |                    uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart3.c:32:20: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   32 |         if (strstr(RxBuffer_UART3, "WIFI CONNECTED")) {
+      |                    ^~~~~~~~~~~~~~
+      |                    |
+      |                    uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart3.c:34:27: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   34 |         } else if (strstr(RxBuffer_UART3, "+CWJAP:2")) {
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart3.c:37:27: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   37 |         } else if (strstr(RxBuffer_UART3, "+CWJAP:3")) {
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart3.c:40:27: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   40 |         } else if (strstr(RxBuffer_UART3, "AT+CWJAP=")) {
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart3.c:51:20: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   51 |         if (strstr(RxBuffer_UART3, ">")) {
+      |                    ^~~~~~~~~~~~~~
+      |                    |
+      |                    uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart3.c:63:20: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   63 |         if (strstr(RxBuffer_UART3, ">")) {
+      |                    ^~~~~~~~~~~~~~
+      |                    |
+      |                    uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart3.c:77:20: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+   77 |         if (strstr(RxBuffer_UART3, "+++")) {
+      |                    ^~~~~~~~~~~~~~
+      |                    |
+      |                    uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:48:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   48 | char  *strstr (const char *, const char *);
+      |                ^~~~~~~~~~~~
+../User/Src/user_uart3.c:86:36: warning: pointer targets in passing argument 1 of 'strrchr' differ in signedness [-Wpointer-sign]
+   86 |         char *last_minus = strrchr(RxBuffer_UART3, '-');
+      |                                    ^~~~~~~~~~~~~~
+      |                                    |
+      |                                    uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:46:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   46 | char  *strrchr (const char *, int);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart3.c:89:35: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'uint8_t *' {aka 'unsigned char *'} [-Wformat=]
+   89 |             sscanf(last_minus, "-%d", &signal_strength_value);
+      |                                  ~^   ~~~~~~~~~~~~~~~~~~~~~~
+      |                                   |   |
+      |                                   |   uint8_t * {aka unsigned char *}
+      |                                   int *
+      |                                  %hhd
+../User/Src/user_uart3.c:91:21: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   91 |             sprintf(tempStr, "%d\n", signal_strength_value);
+      |                     ^~~~~~~
+      |                     |
+      |                     uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:37,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../User/Src/user_uart3.c:93:63: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   93 |             HAL_UART_Transmit(&huart1, RxBuffer_UART3, strlen(RxBuffer_UART3), 200);
+      |                                                               ^~~~~~~~~~~~~~
+      |                                                               |
+      |                                                               uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+../User/Src/user_uart3.c:94:56: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   94 |             HAL_UART_Transmit(&huart1, tempStr, strlen(tempStr), 200);
+      |                                                        ^~~~~~~
+      |                                                        |
+      |                                                        uint8_t * {aka unsigned char *}
+In file included from ../Core/Inc/main.h:38,
+                 from ../User/Inc/user_uart3.h:8,
+                 from ../User/Src/user_uart3.c:5:
+c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/string.h:41:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   41 | size_t  strlen (const char *);
+      |                 ^~~~~~~~~~~~
+arm-none-eabi-gcc "../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting/lv_port_disp_template.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting/lv_port_disp_template.d" -MT"Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting/lv_port_disp_template.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting/lv_port_disp_template.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting/lv_port_indev.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting/lv_port_indev.d" -MT"Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting/lv_port_indev.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting/lv_port_indev.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FatFs/src/option/syscall.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FatFs/src/option/syscall.d" -MT"Middlewares/Third_Party/FatFs/src/option/syscall.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FatFs/src/option/syscall.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FatFs/src/diskio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FatFs/src/diskio.d" -MT"Middlewares/Third_Party/FatFs/src/diskio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FatFs/src/diskio.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FatFs/src/ff.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FatFs/src/ff.d" -MT"Middlewares/Third_Party/FatFs/src/ff.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FatFs/src/ff.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FatFs/src/ff_gen_drv.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FatFs/src/ff_gen_drv.d" -MT"Middlewares/Third_Party/FatFs/src/ff_gen_drv.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/Third_Party/FatFs/src/ff_gen_drv.o"
+arm-none-eabi-gcc "../FATFS/Target/bsp_driver_sd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"FATFS/Target/bsp_driver_sd.d" -MT"FATFS/Target/bsp_driver_sd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FATFS/Target/bsp_driver_sd.o"
+arm-none-eabi-gcc "../FATFS/Target/sd_diskio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"FATFS/Target/sd_diskio.d" -MT"FATFS/Target/sd_diskio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FATFS/Target/sd_diskio.o"
+arm-none-eabi-gcc "../FATFS/App/fatfs.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"FATFS/App/fatfs.d" -MT"FATFS/App/fatfs.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "FATFS/App/fatfs.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o"
+../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting/lv_port_indev.c: In function 'keypad_get_key':
+../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting/lv_port_indev.c:45:12: warning: implicit declaration of function 'key_scan' [-Wimplicit-function-declaration]
+   45 |     return key_scan(0);
+      |            ^~~~~~~~
+../FATFS/Target/sd_diskio.c: In function 'BSP_SD_WriteCpltCallback':
+../FATFS/Target/sd_diskio.c:644:53: warning: passing argument 3 of 'osMessageQueuePut' makes integer from pointer without a cast [-Wint-conversion]
+  644 |    osMessageQueuePut(SDQueueID, (const void *)&msg, NULL, 0);
+      |                                                     ^~~~
+      |                                                     |
+      |                                                     void *
+In file included from ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:155,
+                 from ../Core/Inc/main.h:36,
+                 from ../FATFS/Target/ffconf.h:25,
+                 from ../Middlewares/Third_Party/FatFs/src/ff.h:29,
+                 from ../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h:29,
+                 from ../FATFS/Target/sd_diskio.c:28:
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:689:86: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'void *'
+  689 | osStatus_t osMessageQueuePut (osMessageQueueId_t mq_id, const void *msg_ptr, uint8_t msg_prio, uint32_t timeout);
+      |                                                                              ~~~~~~~~^~~~~~~~
+../FATFS/Target/sd_diskio.c: In function 'BSP_SD_ReadCpltCallback':
+../FATFS/Target/sd_diskio.c:663:53: warning: passing argument 3 of 'osMessageQueuePut' makes integer from pointer without a cast [-Wint-conversion]
+  663 |    osMessageQueuePut(SDQueueID, (const void *)&msg, NULL, 0);
+      |                                                     ^~~~
+      |                                                     |
+      |                                                     void *
+In file included from ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:155,
+                 from ../Core/Inc/main.h:36,
+                 from ../FATFS/Target/ffconf.h:25,
+                 from ../Middlewares/Third_Party/FatFs/src/ff.h:29,
+                 from ../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h:29,
+                 from ../FATFS/Target/sd_diskio.c:28:
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:689:86: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'void *'
+  689 | osStatus_t osMessageQueuePut (osMessageQueueId_t mq_id, const void *msg_ptr, uint8_t msg_prio, uint32_t timeout);
+      |                                                                              ~~~~~~~~^~~~~~~~
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_sdmmc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_sdmmc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_sdmmc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_sdmmc.o"
+arm-none-eabi-gcc "../Drivers/BSP/Src/ZH_lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/ZH_lcd.d" -MT"Drivers/BSP/Src/ZH_lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Src/ZH_lcd.o"
+arm-none-eabi-gcc "../Drivers/BSP/Src/ZH_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/ZH_uart.d" -MT"Drivers/BSP/Src/ZH_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Src/ZH_uart.o"
+arm-none-eabi-gcc "../Drivers/BSP/Src/buzzer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/buzzer.d" -MT"Drivers/BSP/Src/buzzer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Src/buzzer.o"
+arm-none-eabi-gcc "../Drivers/BSP/Src/control_device.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/control_device.d" -MT"Drivers/BSP/Src/control_device.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Src/control_device.o"
+../Drivers/BSP/Src/ZH_lcd.c: In function 'lcd_transfer_command':
+../Drivers/BSP/Src/ZH_lcd.c:20:14: warning: operation on 'data' may be undefined [-Wsequence-point]
+   20 |         data = data <<= 1;
+      |         ~~~~~^~~~~~~~~~~~
+../Drivers/BSP/Src/ZH_lcd.c: In function 'lcd_transfer_data':
+../Drivers/BSP/Src/ZH_lcd.c:37:14: warning: operation on 'data' may be undefined [-Wsequence-point]
+   37 |         data = data <<= 1;
+      |         ~~~~~^~~~~~~~~~~~
+../Drivers/BSP/Src/ZH_uart.c: In function 'ZH_Printf':
+../Drivers/BSP/Src/ZH_uart.c:18:23: warning: passing argument 1 to 'restrict'-qualified parameter aliases with argument 2 [-Wrestrict]
+   18 |     memcpy(MyUart_Send.pData,MyUart_Send.pData,ZH_UartTx_Len);
+      |            ~~~~~~~~~~~^~~~~~ ~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../Drivers/BSP/Src/i2c_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/i2c_hal.d" -MT"Drivers/BSP/Src/i2c_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Src/i2c_hal.o"
+arm-none-eabi-gcc "../Drivers/BSP/Src/shtc3.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/shtc3.d" -MT"Drivers/BSP/Src/shtc3.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Src/shtc3.o"
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/freertos.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/freertos.d" -MT"Core/Src/freertos.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/freertos.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/iwdg.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/iwdg.d" -MT"Core/Src/iwdg.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/iwdg.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Drivers/BSP/Src/i2c_hal.c:21: warning: "SDA_LOW" redefined
+   21 | #define SDA_LOW()  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_11,GPIO_PIN_RESET)  // set SDA to low
+      | 
+In file included from ../Core/Inc/main.h:54,
+                 from ../Drivers/BSP/Inc/i2c_hal.h:17,
+                 from ../Drivers/BSP/Src/i2c_hal.c:14:
+../Drivers/BSP/Inc/ZH_lcd.h:19: note: this is the location of the previous definition
+   19 | #define SDA_LOW    HAL_GPIO_WritePin(GPIOE,GPIO_PIN_7,GPIO_PIN_RESET)
+      | 
+arm-none-eabi-gcc "../Core/Src/rtc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/rtc.d" -MT"Core/Src/rtc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/rtc.o"
+arm-none-eabi-gcc "../Core/Src/sdmmc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sdmmc.d" -MT"Core/Src/sdmmc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sdmmc.o"
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/spi.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_timebase_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_hal_timebase_tim.d" -MT"Core/Src/stm32l4xx_hal_timebase_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_timebase_tim.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L452xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Middlewares/Third_Party/LVGL/GUI/lvgl -I../Middlewares/Third_Party/LVGL/GUI -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src -I../Middlewares/Third_Party/LVGL/GUI/lvgl/examples/porting -I../Middlewares/Third_Party/LVGL/GUI_APP/ui -I../Middlewares/Third_Party/LVGL/GUI/lvgl/src/misc -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -I../User/Inc -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc -o "portable_type_V0.2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\71492\CLionProjects\portable_type_V0.2\STM32L452VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="portable_type_V0.2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: portable_type_V0.2.elf
+ 
+arm-none-eabi-size   portable_type_V0.2.elf 
+arm-none-eabi-objdump -h -S  portable_type_V0.2.elf  > "portable_type_V0.2.list"
+arm-none-eabi-objcopy  -O ihex  portable_type_V0.2.elf  "portable_type_V0.2.hex"
+   text	   data	    bss	    dec	    hex	filename
+ 409148	    636	  95976	 505760	  7b7a0	portable_type_V0.2.elf
+arm-none-eabi-objcopy  -O binary  portable_type_V0.2.elf  "portable_type_V0.2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: portable_type_V0.2.hex
+Finished building: portable_type_V0.2.bin
+ 
+ 
+Finished building: portable_type_V0.2.list
+ 
+
+15:40:38 Build Finished. 0 errors, 95 warnings. (took 10s.275ms)
+

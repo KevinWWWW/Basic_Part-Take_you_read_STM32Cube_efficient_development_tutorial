@@ -1,0 +1,17 @@
+21:37:17 **** Incremental Build of configuration Debug for project Demo22_1Sleep ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Demo22_1Sleep.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Demo22_1Sleep\Demo22_1Sleep\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo22_1Sleep.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Demo22_1Sleep.elf
+ 
+arm-none-eabi-size   Demo22_1Sleep.elf 
+arm-none-eabi-objdump -h -S  Demo22_1Sleep.elf  > "Demo22_1Sleep.list"
+   text	   data	    bss	    dec	    hex	filename
+  33952	     24	   1752	  35728	   8b90	Demo22_1Sleep.elf
+Finished building: default.size.stdout
+ 
+Finished building: Demo22_1Sleep.list
+ 
+
+21:37:18 Build Finished. 0 errors, 0 warnings. (took 1s.78ms)
+

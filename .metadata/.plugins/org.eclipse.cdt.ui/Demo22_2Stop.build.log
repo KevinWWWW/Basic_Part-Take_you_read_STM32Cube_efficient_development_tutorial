@@ -1,0 +1,10 @@
+23:34:06 **** Incremental Build of configuration Debug for project Demo22_2Stop ****
+make -j12 all 
+arm-none-eabi-size   Demo22_2Stop.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41616	    124	   1876	  43616	   aa60	Demo22_2Stop.elf
+Finished building: default.size.stdout
+ 
+
+23:34:06 Build Finished. 0 errors, 0 warnings. (took 383ms)
+

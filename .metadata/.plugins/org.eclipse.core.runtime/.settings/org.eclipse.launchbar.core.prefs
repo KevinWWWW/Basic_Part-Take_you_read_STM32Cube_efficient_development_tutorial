@@ -2,11 +2,13 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
 activeLaunchTarget=null\:---
-configDescList=
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Demo22_3Standby Debug
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo11_1RTC_Alarm\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo13_1USART_DMA\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo13_2USART_IDLE_DMA\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo13_2USART_IDLE_DMA\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo14_1ADC_Poll\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo16_1FlashSPI\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo17_1EEPROM\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo17_1EEPROM\ Debug/activeLaunchTarget=null\:---
@@ -22,9 +24,12 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo19_2SRAM_DMA\ Debug/activeL
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo20_1IWDG\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo3_1LED\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo3_1LED\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo5_2ADC\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo8_1TFTLCD_V3\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo8_1TFTLCD_V3\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Demo9_1TIM_LED\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:portable_type_V0.2\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:portable_type_V0.2\ Debug/activeLaunchTarget=null\:---
 org.eclipse.launchbar.core.descriptorType.default\:Demo18_1Poll\ Debug/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Demo18_1Poll\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Demo18_2Interrupt\ Debug/activeLaunchMode=run
@@ -34,3 +39,9 @@ org.eclipse.launchbar.core.descriptorType.default\:Demo18_2Interrupt_\ Debug/act
 org.eclipse.launchbar.core.descriptorType.default\:Demo18_2Interrupt_\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Demo20_1IWDG\ Debug/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Demo20_1IWDG\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Demo22_1Sleep\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Demo22_1Sleep\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Demo22_2Stop\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Demo22_2Stop\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Demo22_3Standby\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Demo22_3Standby\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,0 +1,10 @@
+00:14:44 **** Incremental Build of configuration Debug for project Demo22_3Standby ****
+make -j12 all 
+arm-none-eabi-size   Demo22_3Standby.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34048	     24	   1752	  35824	   8bf0	Demo22_3Standby.elf
+Finished building: default.size.stdout
+ 
+
+00:14:44 Build Finished. 0 errors, 0 warnings. (took 383ms)
+

@@ -10,6 +10,8 @@
 		<item key="caseSensitive" value="false"/>
 		<item key="searchFlags" value="227191"/>
 		<list key="previousPatterns">
+			<item value="HAL_RTCEx_WakeUpTimerEventCallback"/>
+			<item value="WakeUpTimer"/>
 			<item value="I2C_MEMADD_SIZE_8BIT"/>
 		</list>
 	</section>
@@ -17,7 +19,7 @@
 		<item key="askReindex.detail" value="0"/>
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
-		<item key="size.width" value="448"/>
+		<item key="size.width" value="1116"/>
 		<item key="size.height" value="180"/>
 	</section>
 	<section name="RefactoringWizard.preview">
@@ -29,5 +31,22 @@
 	</section>
 	<section name="CResourceRenameRefactoringInputPage">
 		<item key="updateReferences" value="true"/>
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="CRenameRefactoringInputPage">
+		<item key="scope" value="3"/>
+		<item key="workingset" value=""/>
+		<item key="references_inv" value="false"/>
+		<item key="comment" value="false"/>
+		<item key="macroDefinition" value="false"/>
+		<item key="exhausiveFileSearch" value="false"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.OPEN_ACTION_SELECTION_DIALOG_SECTION">
+		<item key="DIALOG_X_ORIGIN" value="738"/>
+		<item key="DIALOG_Y_ORIGIN" value="166"/>
+		<item key="DIALOG_WIDTH" value="462"/>
+		<item key="DIALOG_HEIGHT" value="575"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
 	</section>
 </section>
