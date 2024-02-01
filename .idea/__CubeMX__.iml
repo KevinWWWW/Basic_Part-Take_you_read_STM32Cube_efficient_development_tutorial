@@ -184,6 +184,9 @@
       <excludeFolder url="file://$MODULE_DIR$/Demo19_2SRAM_DMA/Demo19_2SRAM_DMA/Debug" />
       <excludeFolder url="file://$MODULE_DIR$/Demo20_1IWDG/Demo20_1IWDG/Debug" />
       <excludeFolder url="file://$MODULE_DIR$/Demo21_1WWDG/Demo21_1WWDG/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo22_1Sleep/Demo22_1Sleep/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo22_2Stop/Demo22_2Stop/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/Demo22_3Standby/Demo22_3Standby/Debug" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
