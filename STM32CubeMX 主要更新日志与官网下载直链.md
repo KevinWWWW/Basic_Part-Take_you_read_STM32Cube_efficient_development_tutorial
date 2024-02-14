@@ -17,11 +17,11 @@
 - 将JDK11从Adoptia™Temurin™17.0.6升级到版本17.0.8.1
 
 固件库版本更新：
-- STM32CubeF4 V1.28.0
-- 【新系列】STM32CubeMP13 V1.0.0
-- STM32CubeU5 V1.4.0
-- STM32CubeWBA V1.2.0
-- STM32CubeWB V1.18.0
+- STM32F4 V1.28.0
+- 【新系列】STM32MP13 V1.0.0
+- STM32U5 V1.4.0
+- STM32WBA V1.2.0
+- STM32WB V1.18.0
 
 官网下载直链：`https://www.st.com/content/ccc/resource/technical/software/sw_development_suite/group0/d7/f0/6a/65/f9/28/4d/31/stm32cubemx-win-v6-10-0/files/stm32cubemx-win-v6-10-0.zip/jcr:content/translations/en.stm32cubemx-win-v6-10-0.zip`
 

@@ -12,9 +12,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="【完结】添加第22章Demo，修复LED模板初试电平设置">
-      <change beforePath="$PROJECT_DIR$/.idea/__CubeMX__.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/__CubeMX__.iml" afterDir="false" />
+    <list default="true" id="74be56d6-ed4f-4772-b72e-a11cba5253c0" name="变更" comment="添加STM32CubeMX 主要更新日志与官网下载直链.md">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32CubeMX 主要更新日志与官网下载直链.md" beforeDir="false" afterPath="$PROJECT_DIR$/STM32CubeMX 主要更新日志与官网下载直链.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,36 +32,43 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ONbJrP14xRaSLoLkNKK8oUO99W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/__CubeMX__&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.cidr.embedded.config&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/__CubeMX__",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.cidr.embedded.config",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="未命名" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" version="1">
+    <configuration name="未命名" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" version="1">
       <openocd version="1" gdb-port="3333" telnet-port="4444" reset-type="INIT" download-type="UPDATED_ONLY">
         <debugger kind="GDB" isBundled="true" />
       </openocd>
@@ -101,6 +109,11 @@
       <workItem from="1694525536386" duration="18000" />
       <workItem from="1695572956960" duration="516000" />
       <workItem from="1697029848754" duration="39000" />
+      <workItem from="1706799961341" duration="111000" />
+      <workItem from="1707147141354" duration="611000" />
+      <workItem from="1707231713729" duration="288000" />
+      <workItem from="1707812024489" duration="299000" />
+      <workItem from="1707915816304" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="初始化版本">
       <created>1681404549539</created>
@@ -228,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695573127887</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="添加STM32CubeMX 主要更新日志与官网下载直链.md">
+      <option name="closed" value="true" />
+      <created>1706800065021</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706800065021</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +283,7 @@
     <MESSAGE value="添加第19章Demo19_1" />
     <MESSAGE value="添加Demo19_2 Demo20_1 Demo21_1,修复LED驱动" />
     <MESSAGE value="【完结】添加第22章Demo，修复LED模板初试电平设置" />
-    <option name="LAST_COMMIT_MESSAGE" value="【完结】添加第22章Demo，修复LED模板初试电平设置" />
+    <MESSAGE value="添加STM32CubeMX 主要更新日志与官网下载直链.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加STM32CubeMX 主要更新日志与官网下载直链.md" />
   </component>
 </project>
