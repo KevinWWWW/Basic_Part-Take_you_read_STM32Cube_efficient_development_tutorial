@@ -1,0 +1,10 @@
+23:10:36 **** Incremental Build of configuration Debug for project Demo13_2USART_IDLE_DMA ****
+make -j12 all 
+arm-none-eabi-size   Demo13_2USART_IDLE_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  47732	    148	   2060	  49940	   c314	Demo13_2USART_IDLE_DMA.elf
+Finished building: default.size.stdout
+ 
+
+23:10:37 Build Finished. 0 errors, 0 warnings. (took 405ms)
+

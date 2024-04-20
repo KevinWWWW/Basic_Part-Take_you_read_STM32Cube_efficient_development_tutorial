@@ -93,17 +93,17 @@ int main(void)
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
   lcd_init();
-  lcd_show_str(10, 0 * 30 + 10, 24, "Demo17_1:I2C Interface", RED);
-  lcd_show_str(10, 1 * 30 + 10, 24, "24C02:EEPROM, 256 bytes", RED);
-  lcd_show_str(10, 2 * 30 + 10, 24, "8 bytes/page, 32pages", RED);
-  lcd_show_str(10, 3 * 30 + 10, 24, "I2C Device Address = 0xA0", RED);
+  lcd_show_str(10, 0 * 20 + 10, 16, "Demo17_1:I2C Interface", RED);
+  lcd_show_str(10, 1 * 20 + 10, 16, "24C02:EEPROM, 256 bytes", RED);
+  lcd_show_str(10, 2 * 20 + 10, 16, "8 bytes/page, 32pages", RED);
+  lcd_show_str(10, 3 * 20 + 10, 16, "I2C Device Address = 0xA0", RED);
   if (EP24C_IsDeviceReady() == HAL_OK) {
-	  lcd_show_str(10, 4 * 30 + 10, 24, "Device is ready.", RED);
+	  lcd_show_str(10, 4 * 20 + 10, 16, "Device is ready.", RED);
   }
-  lcd_show_str(10, 5 * 30 + 10, 24, "[1] KeyUp    = Write a number", RED);
-  lcd_show_str(10, 6 * 30 + 10, 24, "[2] KeyDown  = Read the number", RED);
-  lcd_show_str(10, 7 * 30 + 10, 24, "[3] KeyLeft  = Write a String", RED);
-  lcd_show_str(10, 8 * 30 + 10, 24, "[4] KeyRight = Read the String", RED);
+  lcd_show_str(10, 5 * 20 + 10, 16, "[1] KeyUp    = Write a number", RED);
+  lcd_show_str(10, 6 * 20 + 10, 16, "[2] KeyDown  = Read the number", RED);
+  lcd_show_str(10, 7 * 20 + 10, 16, "[3] KeyLeft  = Write a String", RED);
+  lcd_show_str(10, 8 * 20 + 10, 16, "[4] KeyRight = Read the String", RED);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -118,25 +118,25 @@ int main(void)
 	  switch (curKey) {
 		  case KEY_UP:
 			  if (EP24C_WriteOneByte(addr_any, num1) == HAL_OK) {
-				  lcd_fill(10, 10 * 30 + 10, 479, 12 * 30 + 10, WHITE);
+				  lcd_fill(10, 10 * 20 + 10, 479, 12 * 20 + 10, WHITE);
 				  sprintf(infoStr, "Write %d at Address %d\0", num1, addr_any);
-				  lcd_show_str(10, 10 * 30 + 10, 24, infoStr, RED);
+				  lcd_show_str(10, 10 * 20 + 10, 16, infoStr, RED);
 			  }
 			  break;
 		  case KEY_DOWN:
 			  if (EP24C_ReadOneByte(addr_any, &num2) == HAL_OK) {
-				  lcd_fill(10, 10 * 30 + 10, 479, 12 * 30 + 10, WHITE);
+				  lcd_fill(10, 10 * 20 + 10, 479, 12 * 20 + 10, WHITE);
 				  sprintf(infoStr, "Read out %d at Address %d\0", num2, addr_any);
-				  lcd_show_str(10, 10 * 30 + 10, 24, infoStr, RED);
+				  lcd_show_str(10, 10 * 20 + 10, 16, infoStr, RED);
 			  }
 			  break;
 		  case KEY_LEFT:
 		  {
 			  uint8_t strIn[] = "University of Petroleum";
 			  if (EP24C_WriteLongData(addr_page, strIn, sizeof(strIn)) == HAL_OK) {
-				  lcd_fill(10, 10 * 30 + 10, 479, 12 * 30 + 10, WHITE);
-				  lcd_show_str(10, 10 * 30 + 10, 24, "Write string from Page 2:", RED);
-				  lcd_show_str(10, 11 * 30 + 10, 24, strIn, RED);
+				  lcd_fill(10, 10 * 20 + 10, 479, 12 * 20 + 10, WHITE);
+				  lcd_show_str(10, 10 * 20 + 10, 16, "Write string from Page 2:", RED);
+				  lcd_show_str(10, 11 * 20 + 10, 16, strIn, RED);
 			  }
 			  break;
 		  }
@@ -144,15 +144,15 @@ int main(void)
 		  {
 			  uint8_t strOut[50];
 			  if (EP24C_ReadBytes(addr_page, strOut, 50) == HAL_OK) {
-				  lcd_fill(10, 10 * 30 + 10, 479, 12 * 30 + 10, WHITE);
-				  lcd_show_str(10, 10 * 30 + 10, 24, "Read string from Page 2:", RED);
-				  lcd_show_str(10, 11 * 30 + 10, 24, strOut, RED);
+				  lcd_fill(10, 10 * 20 + 10, 479, 12 * 20 + 10, WHITE);
+				  lcd_show_str(10, 10 * 20 + 10, 16, "Read string from Page 2:", RED);
+				  lcd_show_str(10, 11 * 20 + 10, 16, strOut, RED);
 			  }
 			  break;
 		  }
 	  }
 
-	  lcd_show_str(10, 13 * 30 + 10, 24, "**Reselect menu or reset**", RED);
+	  lcd_show_str(10, 13 * 20 + 10, 16, "**Reselect menu or reset**", RED);
 	  HAL_Delay(500);
     /* USER CODE END WHILE */
 

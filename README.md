@@ -9,4 +9,5 @@ https://www.bilibili.com/video/BV1JK411Q7hE/
 
 #### 开发板
 
-正点原子F407探索者V2/V3
+up主本人研制并售卖的KW407A开发板。或Kevin正点原子F407探索者V2/V3
+【更好用更优雅的STM32F407开发板】KW407A购买链接：https://mall.bilibili.com/neul-next/index.html?page=mall-up_itemDetail&noTitleBar=1&itemsId=1106475060&from=auto-dynamic&msource=auto-dynamic

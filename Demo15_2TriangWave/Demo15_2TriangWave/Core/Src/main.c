@@ -92,9 +92,9 @@ int main(void)
   MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
   lcd_init();
-  lcd_show_str(10, 10, 24, "Demo15_2: DAC1 triggered by TIM6", RED);
-  lcd_show_str(10, 40, 24, "Triangular wave on PA4", RED);
-  lcd_show_str(10, 70, 24, "Wave's interval is 819ms", RED);
+  lcd_show_str(10, 10, 16, "Demo15_2: DAC1 triggered by TIM6", RED);
+  lcd_show_str(10, 30, 16, "Triangular wave on PA4", RED);
+  lcd_show_str(10, 50, 16, "Wave's interval is 819ms", RED);
 
   HAL_DAC_Start(&hdac, DAC_CHANNEL_1);
   uint32_t DCValue = 0;

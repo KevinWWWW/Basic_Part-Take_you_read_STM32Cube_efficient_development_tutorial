@@ -1,10 +1,22 @@
-16:12:36 **** Incremental Build of configuration Debug for project Demo16_2FlashSPI_DMA ****
+23:54:58 **** Build of configuration Debug for project Demo16_2FlashSPI_DMA ****
 make -j12 all 
+arm-none-eabi-gcc "../Drivers/BSP/Src/keyled.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/BSP/Src/keyled.d" -MT"Drivers/BSP/Src/keyled.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Src/keyled.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:113:4: warning: enumeration value 'KEY_NONE' not handled in switch [-Wswitch]
+  113 |    switch (curkey) {
+      |    ^~~~~~
+arm-none-eabi-gcc -o "Demo16_2FlashSPI_DMA.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Basic_Part\Demo16_2FlashSPI_DMA\Demo16_2FlashSPI_DMA\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo16_2FlashSPI_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Demo16_2FlashSPI_DMA.elf
+ 
 arm-none-eabi-size   Demo16_2FlashSPI_DMA.elf 
+arm-none-eabi-objdump -h -S  Demo16_2FlashSPI_DMA.elf  > "Demo16_2FlashSPI_DMA.list"
    text	   data	    bss	    dec	    hex	filename
   58260	    488	   2560	  61308	   ef7c	Demo16_2FlashSPI_DMA.elf
 Finished building: default.size.stdout
  
+Finished building: Demo16_2FlashSPI_DMA.list
+ 
 
-16:12:36 Build Finished. 0 errors, 0 warnings. (took 406ms)
+23:55:00 Build Finished. 0 errors, 1 warnings. (took 2s.418ms)
 

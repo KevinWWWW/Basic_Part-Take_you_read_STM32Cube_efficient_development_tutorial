@@ -1,0 +1,10 @@
+22:52:09 **** Incremental Build of configuration Debug for project Demo3_1LED ****
+make -j12 all 
+arm-none-eabi-size   Demo3_1LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5880	     20	   1572	   7472	   1d30	Demo3_1LED.elf
+Finished building: default.size.stdout
+ 
+
+22:52:12 Build Finished. 0 errors, 0 warnings. (took 2s.187ms)
+

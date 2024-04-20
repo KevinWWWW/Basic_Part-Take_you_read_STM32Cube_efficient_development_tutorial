@@ -1,4 +1,4 @@
-21:22:27 **** Incremental Build of configuration Debug for project Demo17_1EEPROM ****
+23:59:54 **** Incremental Build of configuration Debug for project Demo17_1EEPROM ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
@@ -15,7 +15,7 @@ c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\p
   122 |       sprintf(infoStr, "Write %d at Address %d\0", num1, addr_any);
       |                                               ^~
 ../Core/Src/main.c:123:42: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-  123 |       lcd_show_str(10, 10 * 30 + 10, 24, infoStr, RED);
+  123 |       lcd_show_str(10, 10 * 20 + 10, 16, infoStr, RED);
       |                                          ^~~~~~~
       |                                          |
       |                                          uint8_t * {aka unsigned char *}
@@ -36,7 +36,7 @@ c:\program files\stmicroelectronics\stm32cube\stm32cubeide_1.10.1\stm32cubeide\p
   129 |       sprintf(infoStr, "Read out %d at Address %d\0", num2, addr_any);
       |                                                  ^~
 ../Core/Src/main.c:130:42: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-  130 |       lcd_show_str(10, 10 * 30 + 10, 24, infoStr, RED);
+  130 |       lcd_show_str(10, 10 * 20 + 10, 16, infoStr, RED);
       |                                          ^~~~~~~
       |                                          |
       |                                          uint8_t * {aka unsigned char *}
@@ -45,7 +45,7 @@ In file included from ../Core/Src/main.c:27:
   236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
       |                                                         ~~~~~~^
 ../Core/Src/main.c:139:42: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-  139 |       lcd_show_str(10, 11 * 30 + 10, 24, strIn, RED);
+  139 |       lcd_show_str(10, 11 * 20 + 10, 16, strIn, RED);
       |                                          ^~~~~
       |                                          |
       |                                          uint8_t * {aka unsigned char *}
@@ -54,7 +54,7 @@ In file included from ../Core/Src/main.c:27:
   236 | void lcd_show_str(uint16_t x, uint16_t y, uint8_t size, char *p, uint16_t color);
       |                                                         ~~~~~~^
 ../Core/Src/main.c:149:42: warning: pointer targets in passing argument 4 of 'lcd_show_str' differ in signedness [-Wpointer-sign]
-  149 |       lcd_show_str(10, 11 * 30 + 10, 24, strOut, RED);
+  149 |       lcd_show_str(10, 11 * 20 + 10, 16, strOut, RED);
       |                                          ^~~~~~
       |                                          |
       |                                          uint8_t * {aka unsigned char *}
@@ -65,17 +65,17 @@ In file included from ../Core/Src/main.c:27:
 ../Core/Src/main.c:118:4: warning: enumeration value 'KEY_NONE' not handled in switch [-Wswitch]
   118 |    switch (curKey) {
       |    ^~~~~~
-arm-none-eabi-gcc -o "Demo17_1EEPROM.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Demo17_1EEPROM\Demo17_1EEPROM\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo17_1EEPROM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+arm-none-eabi-gcc -o "Demo17_1EEPROM.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Basic_Part\Demo17_1EEPROM\Demo17_1EEPROM\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo17_1EEPROM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: Demo17_1EEPROM.elf
  
 arm-none-eabi-size   Demo17_1EEPROM.elf 
 arm-none-eabi-objdump -h -S  Demo17_1EEPROM.elf  > "Demo17_1EEPROM.list"
    text	   data	    bss	    dec	    hex	filename
-  42776	    124	   1852	  44752	   aed0	Demo17_1EEPROM.elf
+  42744	    124	   1852	  44720	   aeb0	Demo17_1EEPROM.elf
 Finished building: default.size.stdout
  
 Finished building: Demo17_1EEPROM.list
  
 
-21:22:28 Build Finished. 0 errors, 9 warnings. (took 1s.175ms)
+23:59:56 Build Finished. 0 errors, 9 warnings. (took 1s.592ms)
 

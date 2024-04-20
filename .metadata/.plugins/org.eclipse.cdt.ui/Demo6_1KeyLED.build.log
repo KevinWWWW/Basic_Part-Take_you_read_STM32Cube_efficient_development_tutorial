@@ -1,0 +1,10 @@
+13:26:06 **** Incremental Build of configuration Debug for project Demo6_1KeyLED ****
+make -j12 all 
+arm-none-eabi-size   Demo6_1KeyLED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6496	     20	   1572	   8088	   1f98	Demo6_1KeyLED.elf
+Finished building: default.size.stdout
+ 
+
+13:26:08 Build Finished. 0 errors, 0 warnings. (took 1s.854ms)
+

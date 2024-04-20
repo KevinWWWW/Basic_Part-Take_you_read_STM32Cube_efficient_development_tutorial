@@ -92,15 +92,15 @@ int main(void)
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
   lcd_init();
-  lcd_show_str(10, 0*30 + 10, 24, "Demo16_1:SPI Interface", RED);
-  lcd_show_str(10, 1*30 + 10, 24, "128M-bit --Flash Memory", RED);
+  lcd_show_str(10, 0*20 + 10, 16, "Demo16_1:SPI Interface", RED);
+  lcd_show_str(10, 1*20 + 10, 16, "128M-bit --Flash Memory", RED);
 
   Flash_TestReadStatus();
 
-  lcd_show_str(10, 6*30 + 10, 24, "[1]KeyUp    = Erase Chip", RED);
-  lcd_show_str(10, 7*30 + 10, 24, "[2]KeyDown  = Erase Block 0", RED);
-  lcd_show_str(10, 8*30 + 10, 24, "[3]KeyLeft  = Write Page 0-1", RED);
-  lcd_show_str(10, 9*30 + 10, 24, "[4]KeyRight = Read Page 0-1", RED);
+  lcd_show_str(10, 6*20 + 10, 16, "[1]KeyUp    = Erase Chip", RED);
+  lcd_show_str(10, 7*20 + 10, 16, "[2]KeyDown  = Erase Block 0", RED);
+  lcd_show_str(10, 8*20 + 10, 16, "[3]KeyLeft  = Write Page 0-1", RED);
+  lcd_show_str(10, 9*20 + 10, 16, "[4]KeyRight = Read Page 0-1", RED);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -110,28 +110,28 @@ int main(void)
 	  KEYS curkey = ScanPressedKey(KEY_WAIT_ALWAYS);
 	  switch (curkey) {
 		  case KEY_UP:
-			  lcd_fill(0, 10*30 + 10, 479, 799, WHITE);
-			  lcd_show_str(10,11*30 + 10, 24, "Erasing chip, about 30 sec...", RED);
+			  lcd_fill(0, 10*20 + 10, 479, 799, WHITE);
+			  lcd_show_str(10,11*20 + 10, 16, "Erasing chip, about 30 sec...", RED);
 			  Flash_EraseChip();
-			  lcd_show_str(10,12*30 + 10, 24, "Chip is erased.              ", RED);
+			  lcd_show_str(10,12*20 + 10, 16, "Chip is erased.              ", RED);
 			  break;
 		  case KEY_DOWN:
-			  lcd_fill(0, 10*30 + 10, 479, 799, WHITE);
-			  lcd_show_str(10,11*30 + 10, 24, "Erasing Block 0(256 pages)...", RED);
+			  lcd_fill(0, 10*20 + 10, 479, 799, WHITE);
+			  lcd_show_str(10,11*20 + 10, 16, "Erasing Block 0(256 pages)...", RED);
 			  uint32_t globalAddr = 0;
 			  Flash_EraseBlock64K(globalAddr);
-			  lcd_show_str(10,12*30 + 10, 24, "Block 0 is erased.           ", RED);
+			  lcd_show_str(10,12*20 + 10, 16, "Block 0 is erased.           ", RED);
 			  break;
 		  case KEY_LEFT:
-			  lcd_fill(0, 10*30 + 10, 479, 799, WHITE);
+			  lcd_fill(0, 10*20 + 10, 479, 799, WHITE);
 			  Flash_TestWrite();
 			  break;
 		  case KEY_RIGHT:
-			  lcd_fill(0, 10*30 + 10, 479, 799, WHITE);
+			  lcd_fill(0, 10*20 + 10, 479, 799, WHITE);
 			  Flash_TestRead();
 			  break;
 	  }
-	  lcd_show_str(10,18*30 + 10, 24, "**Reselect menu or reset**", RED);
+	  lcd_show_str(10,18*20 + 10, 16, "**Reselect menu or reset**", RED);
 	  HAL_Delay(500);
     /* USER CODE END WHILE */
 

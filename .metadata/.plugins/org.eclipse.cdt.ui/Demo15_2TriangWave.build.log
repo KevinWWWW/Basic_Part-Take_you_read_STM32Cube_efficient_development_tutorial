@@ -1,0 +1,17 @@
+23:41:29 **** Incremental Build of configuration Debug for project Demo15_2TriangWave ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/LCD -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Demo15_2TriangWave.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\__CubeMX__\Basic_Part\Demo15_2TriangWave\Demo15_2TriangWave\STM32F407ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo15_2TriangWave.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Demo15_2TriangWave.elf
+ 
+arm-none-eabi-size   Demo15_2TriangWave.elf 
+arm-none-eabi-objdump -h -S  Demo15_2TriangWave.elf  > "Demo15_2TriangWave.list"
+   text	   data	    bss	    dec	    hex	filename
+  35504	     24	   1840	  37368	   91f8	Demo15_2TriangWave.elf
+Finished building: default.size.stdout
+ 
+Finished building: Demo15_2TriangWave.list
+ 
+
+23:41:30 Build Finished. 0 errors, 0 warnings. (took 1s.35ms)
+

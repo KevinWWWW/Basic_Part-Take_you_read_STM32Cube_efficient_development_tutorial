@@ -91,18 +91,18 @@ int main(void)
   MX_CAN1_Init();
   /* USER CODE BEGIN 2 */
   lcd_init();
-  lcd_show_str(10, 10 + 0 * 30, 24, "Demo18_1: CAN Polling", RED);
-  lcd_show_str(10, 10 + 1 * 30, 24, "Test mode: Loopback", RED);
+  lcd_show_str(10, 10 + 0 * 20, 16, "Demo18_1: CAN Polling", RED);
+  lcd_show_str(10, 10 + 1 * 20, 16, "Test mode: Loopback", RED);
 
   if (CAN_SetFilters() == HAL_OK) {
-	  lcd_show_str(10, 10 + 2 * 30, 24, "ID Filter: Only Odd IDs", RED);
+	  lcd_show_str(10, 10 + 2 * 20, 16, "ID Filter: Only Odd IDs", RED);
   }
   if (HAL_CAN_Start(&hcan1) == HAL_OK) {
-	  lcd_show_str(10, 10 + 3 * 30, 24, "CAN is started", RED);
+	  lcd_show_str(10, 10 + 3 * 20, 16, "CAN is started", RED);
   }
 
-  lcd_show_str(10, 10 + 5 * 30, 24, "[1]KeyUp   = Send a Data Frame", RED);
-  lcd_show_str(10, 10 + 6 * 30, 24, "[2]KeyDown = Send a Remote Frame", RED);
+  lcd_show_str(10, 10 + 5 * 20, 16, "[1]KeyUp   = Send a Data Frame", RED);
+  lcd_show_str(10, 10 + 6 * 20, 16, "[2]KeyDown = Send a Remote Frame", RED);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -112,14 +112,14 @@ int main(void)
   {
 	  KEYS curkey = ScanPressedKey(KEY_WAIT_ALWAYS);
 	  if (curkey == KEY_UP) {
-		  lcd_fill(0, 10 + 7 * 30, 479, 10 + 16 * 30, WHITE);
+		  lcd_fill(0, 10 + 7 * 20, 479, 10 + 16 * 20, WHITE);
 		  CAN_TestPoll(msgID++, CAN_RTR_DATA);
 	  } else if (curkey == KEY_DOWN) {
-		  lcd_fill(0, 10 + 7 * 30, 479, 10 + 16 * 30, WHITE);
+		  lcd_fill(0, 10 + 7 * 20, 479, 10 + 16 * 20, WHITE);
 		  CAN_TestPoll(msgID++, CAN_RTR_REMOTE);
 	  }
 
-	  lcd_show_str(10, 10 + 15 * 30, 24, "** Reselect menu or reset **", RED);
+	  lcd_show_str(10, 10 + 15 * 20, 16, "** Reselect menu or reset **", RED);
 	  HAL_Delay(500);
     /* USER CODE END WHILE */
 

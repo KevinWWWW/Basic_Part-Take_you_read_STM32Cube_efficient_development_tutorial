@@ -61,8 +61,8 @@ all: main-build
 main-build: Demo16_2FlashSPI_DMA.elf secondary-outputs
 
 # Tool invocations
-Demo16_2FlashSPI_DMA.elf Demo16_2FlashSPI_DMA.map: $(OBJS) $(USER_OBJS) E:\__CubeMX__\Demo16_2FlashSPI_DMA\Demo16_2FlashSPI_DMA\STM32F407ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Demo16_2FlashSPI_DMA.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\__CubeMX__\Demo16_2FlashSPI_DMA\Demo16_2FlashSPI_DMA\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo16_2FlashSPI_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Demo16_2FlashSPI_DMA.elf Demo16_2FlashSPI_DMA.map: $(OBJS) $(USER_OBJS) E:\__CubeMX__\Basic_Part\Demo16_2FlashSPI_DMA\Demo16_2FlashSPI_DMA\STM32F407ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Demo16_2FlashSPI_DMA.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"E:\__CubeMX__\Basic_Part\Demo16_2FlashSPI_DMA\Demo16_2FlashSPI_DMA\STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Demo16_2FlashSPI_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -44,12 +44,12 @@ void CAN_TestPoll(uint8_t msgID, uint8_t frameType) {
 
 	uint32_t TxMailbox;
 	if (HAL_CAN_AddTxMessage(&hcan1, &TxHeader, TxData, &TxMailbox) != HAL_OK) {
-		lcd_show_str(10, 10 + 7 * 30, 24, "Send to mailbox error", RED);
+		lcd_show_str(10, 10 + 7 * 20, 16, "Send to mailbox error", RED);
 		  return;
 	}
 	uint8_t tempStr[30];
 	sprintf(tempStr, "Send MsgID = %d", msgID);
-	lcd_show_str(10, 10 + 7 * 30, 24, tempStr, RED);
+	lcd_show_str(10, 10 + 7 * 20, 16, tempStr, RED);
 
 	while (HAL_CAN_GetTxMailboxesFreeLevel(&hcan1) != 3) {
 		;
@@ -60,30 +60,30 @@ void CAN_TestPoll(uint8_t msgID, uint8_t frameType) {
 	uint8_t RxData[8];
 	HAL_Delay(1);
 	if (HAL_CAN_GetRxFifoFillLevel(&hcan1, CAN_RX_FIFO0) != 1) {
-		lcd_show_str(10, 10 + 8 * 30, 24, "Message is not received", RED);
+		lcd_show_str(10, 10 + 8 * 20, 16, "Message is not received", RED);
 		return;
 	}
-	lcd_show_str(10, 10 + 8 * 30, 24, "Message is received", RED);
+	lcd_show_str(10, 10 + 8 * 20, 16, "Message is received", RED);
 
 	if (HAL_CAN_GetRxMessage(&hcan1, CAN_RX_FIFO0, &RxHeader, RxData) == HAL_OK) {
 		sprintf(tempStr, "StdID = %d", RxHeader.StdId);
-		lcd_show_str(10, 10 + 9 * 30, 24, tempStr, RED);
+		lcd_show_str(10, 10 + 9 * 20, 16, tempStr, RED);
 
 		sprintf(tempStr, "RTR(0=Data, 2=Remote) = %d", RxHeader.RTR);
-		lcd_show_str(10, 10 + 10 * 30, 24, tempStr, RED);
+		lcd_show_str(10, 10 + 10 * 20, 16, tempStr, RED);
 
 		sprintf(tempStr, "IDE(0=Std, 4=Ext) = %d", RxHeader.IDE);
-		lcd_show_str(10, 10 + 11 * 30, 24, tempStr, RED);
+		lcd_show_str(10, 10 + 11 * 20, 16, tempStr, RED);
 
 		sprintf(tempStr, "DLC(Data Length) = %d", RxHeader.DLC);
-		lcd_show_str(10, 10 + 12 * 30, 24, tempStr, RED);
+		lcd_show_str(10, 10 + 12 * 20, 16, tempStr, RED);
 
 		if (TxHeader.RTR == CAN_RTR_DATA) {
 			sprintf(tempStr, "Data[0] = %d", RxData[0]);
-			lcd_show_str(10, 10 + 13 * 30, 24, tempStr, RED);
+			lcd_show_str(10, 10 + 13 * 20, 16, tempStr, RED);
 
 			sprintf(tempStr, "Data[1] = %d", RxData[1]);
-			lcd_show_str(10, 10 + 14 * 30, 24, tempStr, RED);
+			lcd_show_str(10, 10 + 14 * 20, 16, tempStr, RED);
 		}
 	}
 

@@ -17,6 +17,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\__CubeMX__\Basic_Part\Demo19_1SRAM\Demo19_1SRAM"/>
+			<item value="E:\__CubeMX__\Basic_Part\Demo8_1TFTLCD_V3\Demo8_1TFTLCD_V3"/>
 			<item value="E:\__CubeMX__\Demo19_1SRAM\Demo19_1SRAM"/>
 			<item value="E:\__CubeMX__\Demo18_1Poll\Demo18_1Poll"/>
 		</list>

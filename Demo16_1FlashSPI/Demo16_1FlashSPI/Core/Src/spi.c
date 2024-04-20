@@ -123,44 +123,44 @@ void Flash_TestReadStatus() {
 
 	uint8_t tempStrDevID[30];
 	sprintf(tempStrDevID, "Device ID = 0x%04X", devID);
-	lcd_show_str(10, 2*30 + 10, 24, tempStrDevID, RED);
+	lcd_show_str(10, 2*20 + 10, 16, tempStrDevID, RED);
 
 	switch (devID) {
 	case 0xEF17:
-		lcd_show_str(10, 3*30 + 10, 24, "The chip is: W25Q128", RED);
+		lcd_show_str(10, 3*20 + 10, 16, "The chip is: W25Q128", RED);
 		break;
 	case 0xC817:
-		lcd_show_str(10, 3*30 + 10, 24, "The chip is: GD25Q128", RED);
+		lcd_show_str(10, 3*20 + 10, 16, "The chip is: GD25Q128", RED);
 		break;
 	case 0x1C17:
-		lcd_show_str(10, 3*30 + 10, 24, "The chip is: EN25Q128", RED);
+		lcd_show_str(10, 3*20 + 10, 16, "The chip is: EN25Q128", RED);
 		break;
 	case 0x2018:
-		lcd_show_str(10, 3*30 + 10, 24, "The chip is: N25Q128", RED);
+		lcd_show_str(10, 3*20 + 10, 16, "The chip is: N25Q128", RED);
 		break;
 	case 0x2017:
-		lcd_show_str(10, 3*30 + 10, 24, "The chip is: XMN25QH128", RED);
+		lcd_show_str(10, 3*20 + 10, 16, "The chip is: XMN25QH128", RED);
 		break;
 	case 0xA117:
-		lcd_show_str(10, 3*30 + 10, 24, "The chip is: FM25Q128", RED);
+		lcd_show_str(10, 3*20 + 10, 16, "The chip is: FM25Q128", RED);
 		break;
 //	case 0x:
-//		lcd_show_str(10, 3*30 + 10, 24, "The chip is: NM25Q128", RED);
+//		lcd_show_str(10, 3*20 + 10, 16, "The chip is: NM25Q128", RED);
 //		break;
 //	case 0x:
-//		lcd_show_str(10, 3*30 + 10, 24, "The chip is: BY25Q128", RED);
+//		lcd_show_str(10, 3*20 + 10, 16, "The chip is: BY25Q128", RED);
 //		break;
 	default:
-		lcd_show_str(10, 3*30 + 10, 24, "Unknown type", RED);
+		lcd_show_str(10, 3*20 + 10, 16, "Unknown type", RED);
 	}
 
 	uint8_t tempStrSR1[30];
 	sprintf(tempStrSR1, "Status Reg1 = 0x%X", Flash_ReadSR1());
-	lcd_show_str(10, 4*30 + 10, 24, tempStrSR1, RED);
+	lcd_show_str(10, 4 * 20 + 10, 16, tempStrSR1, RED);
 
 	uint8_t tempStrSR2[30];
 	sprintf(tempStrSR2, "Status Reg2 = 0x%X", Flash_ReadSR2());
-	lcd_show_str(10, 5*30 + 10, 24, tempStrSR2, RED);
+	lcd_show_str(10, 5 * 20 + 10, 16, tempStrSR2, RED);
 }
 
 void Flash_TestWrite() {
@@ -171,13 +171,13 @@ void Flash_TestWrite() {
 	memAddress = Flash_Addr_byBlockSectorPage(BlockNo, SubSectorNo, SubPageNo);
 	uint8_t bufStr1[30] = "Hello from beginning";
 	Flash_WriteInPage(memAddress, bufStr1, strlen(bufStr1) + 1);
-	lcd_show_str(10, 11*30 + 10, 24, "Write in Page0:0", RED);
-	lcd_show_str(10, 12*30 + 10, 24, bufStr1, RED);
+	lcd_show_str(10, 11*20 + 10, 16, "Write in Page0:0", RED);
+	lcd_show_str(10, 12*20 + 10, 16, bufStr1, RED);
 
 	uint8_t bufStr2[30] = "Hello in page";
 	Flash_WriteInPage(memAddress + 100, bufStr2, strlen(bufStr2) + 1);
-	lcd_show_str(10, 13*30 + 10, 24, "Write in Page0:100", RED);
-	lcd_show_str(10, 14*30 + 10, 24, bufStr2, RED);
+	lcd_show_str(10, 13*20 + 10, 16, "Write in Page0:100", RED);
+	lcd_show_str(10, 14*20 + 10, 16, bufStr2, RED);
 
 	uint8_t bufPage[FLASH_PAGE_SIZE];
 	for (uint16_t i = 0; i < FLASH_PAGE_SIZE; ++i) {
@@ -186,7 +186,7 @@ void Flash_TestWrite() {
 	SubPageNo = 1;
 	memAddress = Flash_Addr_byBlockSectorPage(BlockNo, SubSectorNo, SubPageNo);
 	Flash_WriteInPage(memAddress, bufPage, FLASH_PAGE_SIZE);
-	lcd_show_str(10, 15*30 + 10, 24, "Write 0~255 in Page1", RED);
+	lcd_show_str(10, 15*20 + 10, 16, "Write 0~255 in Page1", RED);
 }
 
 void Flash_TestRead() {
@@ -196,12 +196,12 @@ void Flash_TestRead() {
 	uint32_t memAddress = Flash_Addr_byBlockSectorPage(BlockNo, SubSectorNo, SubPageNo);
 	uint8_t bufStr[50];
 	Flash_ReadBytes(memAddress, bufStr, 50);
-	lcd_show_str(10, 11*30 + 10, 24, "Read in Page0:0 ", RED);
-	lcd_show_str(10, 12*30 + 10, 24, bufStr, RED);
+	lcd_show_str(10, 11*20 + 10, 16, "Read in Page0:0 ", RED);
+	lcd_show_str(10, 12*20 + 10, 16, bufStr, RED);
 
 	Flash_ReadBytes(memAddress + 100, bufStr, 50);
-	lcd_show_str(10, 13*30 + 10, 24, "Read in Page0:100 ", RED);
-	lcd_show_str(10, 14*30 + 10, 24, bufStr, RED);
+	lcd_show_str(10, 13*20 + 10, 16, "Read in Page0:100 ", RED);
+	lcd_show_str(10, 14*20 + 10, 16, bufStr, RED);
 
 	SubPageNo = 1;
 	memAddress = Flash_Addr_byBlockSectorPage(BlockNo, SubSectorNo, SubPageNo);
@@ -211,7 +211,7 @@ void Flash_TestRead() {
 	uint8_t tempStrRandData[30];
 	sprintf(tempStrRandData, "Page1[12]=%d,[136]=%d,[210]=%d",
 			randData12, randData136, randData210);
-	lcd_show_str(10, 15*30 + 10, 24, tempStrRandData, RED);
+	lcd_show_str(10, 15*20 + 10, 16, tempStrRandData, RED);
 
 }
 /* USER CODE END 1 */
