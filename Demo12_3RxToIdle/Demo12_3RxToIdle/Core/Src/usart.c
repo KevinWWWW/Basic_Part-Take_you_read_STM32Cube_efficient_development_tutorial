@@ -156,7 +156,7 @@ void Cmd_Process() {
 	}
 
 
-	if (RxProBuf[1] = 'U') {
+	if (RxProBuf[1] == 'U') {
 		isUploadTime = value;
 		return;
 	}
@@ -169,11 +169,11 @@ void Cmd_Process() {
 		sTime.DayLightSaving = 0;
 		sTime.StoreOperation = 0;
 
-		if (RxProBuf[1] = 'H') {
+		if (RxProBuf[1] == 'H') {
 			sTime.Hours = value;
-		} else if (RxProBuf[1] = 'M') {
+		} else if (RxProBuf[1] == 'M') {
 			sTime.Minutes = value;
-		} else if (RxProBuf[1] = 'S') {
+		} else if (RxProBuf[1] == 'S') {
 			sTime.Seconds = value;
 		}
 		HAL_RTC_SetTime(&hrtc, &sTime, RTC_FORMAT_BIN);
